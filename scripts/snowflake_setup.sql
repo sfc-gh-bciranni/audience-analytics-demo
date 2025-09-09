@@ -308,10 +308,10 @@ CREATE OR REPLACE SEMANTIC VIEW AUDIENCE_ANALYTICS.DEMO_SCHEMA.AUDIENCE_SEMANTIC
         CONSENT.PII_flag as pii_flag with synonyms=('personal_data','sensitive_data') comment='Contains personally identifiable information'
     )
     metrics (
-        SEGMENTS.TOTAL_SEGMENTS as COUNT(segments.segment_record) comment='Total number of segment memberships',
-        DEMOGRAPHICS.TOTAL_AUDIENCES as COUNT(demographics.audience_record) comment='Total number of audiences',
-        SEGMENTS.LOOKALIKE_SEGMENTS as COUNT(CASE WHEN segments.lookalike_flag = TRUE THEN segments.segment_record END) comment='Number of lookalike segments',
-        CONSENT.OPT_IN_AUDIENCES as COUNT(CASE WHEN consent.consent_status = 'Opt-in' THEN consent.consent_record END) comment='Number of opted-in audiences'
+        segments.total_segments as COUNT(segments.segment_record) comment='Total number of segment memberships',
+        demographics.total_audiences as COUNT(demographics.audience_record) comment='Total number of audiences',
+        segments.lookalike_segments as COUNT(CASE WHEN segments.lookalike_flag = TRUE THEN segments.segment_record END) comment='Number of lookalike segments',
+        consent.opt_in_audiences as COUNT(CASE WHEN consent.consent_status = 'Opt-in' THEN consent.consent_record END) comment='Number of opted-in audiences'
     )
     comment='Semantic view for audience demographics, segmentation, and privacy analysis';
 
@@ -349,13 +349,13 @@ CREATE OR REPLACE SEMANTIC VIEW AUDIENCE_ANALYTICS.DEMO_SCHEMA.CREATIVE_SEMANTIC
         SEGMENTS.primary_interest as audience_interest with synonyms=('target_interest','audience_category') comment='Primary interest of target audience'
     )
     metrics (
-        PERFORMANCE.TOTAL_IMPRESSIONS as SUM(performance.impressions) comment='Total impressions across campaigns',
-        PERFORMANCE.TOTAL_CLICKS as SUM(performance.clicks) comment='Total clicks across campaigns',
-        PERFORMANCE.TOTAL_CONVERSIONS as SUM(performance.conversions) comment='Total conversions across campaigns',
-        PERFORMANCE.TOTAL_COST as SUM(performance.cost) comment='Total campaign cost',
-        PERFORMANCE.AVERAGE_ROI as AVG(performance.roi) comment='Average return on investment',
-        PERFORMANCE.AVERAGE_CTR as AVG(performance.ctr) comment='Average click-through rate',
-        CREATIVES.AVERAGE_SENTIMENT as AVG(creatives.sentiment) comment='Average sentiment score of creatives'
+        performance.total_impressions as SUM(performance.impressions) comment='Total impressions across campaigns',
+        performance.total_clicks as SUM(performance.clicks) comment='Total clicks across campaigns',
+        performance.total_conversions as SUM(performance.conversions) comment='Total conversions across campaigns',
+        performance.total_cost as SUM(performance.cost) comment='Total campaign cost',
+        performance.average_roi as AVG(performance.ROI) comment='Average return on investment',
+        performance.average_ctr as AVG(performance.CTR) comment='Average click-through rate',
+        creatives.average_sentiment as AVG(creatives.sentiment) comment='Average sentiment score of creatives'
     )
     comment='Semantic view for creative performance optimization and asset analysis';
 
@@ -391,12 +391,12 @@ CREATE OR REPLACE SEMANTIC VIEW AUDIENCE_ANALYTICS.DEMO_SCHEMA.ATTRIBUTION_SEMAN
         DEMOGRAPHICS.state as audience_location with synonyms=('geography','location') comment='Geographic location of audience'
     )
     metrics (
-        ATTRIBUTION.TOTAL_ATTRIBUTION_EVENTS as COUNT(attribution.attribution_record) comment='Total attribution events',
-        ATTRIBUTION.AVERAGE_ATTRIBUTION as AVG(attribution.attribution_value) comment='Average attribution percentage',
-        ENGAGEMENT.TOTAL_IMPRESSIONS as SUM(engagement.impressions) comment='Total channel impressions',
-        ENGAGEMENT.TOTAL_REACH as SUM(engagement.reach) comment='Total channel reach',
-        ENGAGEMENT.AVERAGE_FREQUENCY as AVG(engagement.frequency) comment='Average channel frequency',
-        ENGAGEMENT.AVERAGE_ENGAGEMENT_RATE as AVG(engagement.engagement_rate) comment='Average channel engagement rate'
+        attribution.total_attribution_events as COUNT(attribution.attribution_record) comment='Total attribution events',
+        attribution.average_attribution as AVG(attribution.attribution_value) comment='Average attribution percentage',
+        engagement.total_impressions as SUM(engagement.impressions) comment='Total channel impressions',
+        engagement.total_reach as SUM(engagement.reach) comment='Total channel reach',
+        engagement.average_frequency as AVG(engagement.frequency) comment='Average channel frequency',
+        engagement.average_engagement_rate as AVG(engagement.engagement_rate) comment='Average channel engagement rate'
     )
     comment='Semantic view for attribution modeling and cross-channel engagement analysis';
 
