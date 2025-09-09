@@ -300,7 +300,7 @@ CREATE OR REPLACE SEMANTIC VIEW AUDIENCE_ANALYTICS.DEMO_SCHEMA.AUDIENCE_SEMANTIC
         segments.secondary_interest AS segments.secondary_interest WITH SYNONYMS = ('sub_interest','subcategory') COMMENT = 'Secondary interest category',
         segments.lookalike_segment_flag AS segments.lookalike_segment_flag WITH SYNONYMS = ('lookalike','modeled_segment') COMMENT = 'Indicates if segment is lookalike modeled',
         consent.consent_status AS consent.consent_status WITH SYNONYMS = ('privacy_status','opt_status') COMMENT = 'Privacy consent status',
-        consent.pii_flag AS consent.PII_flag WITH SYNONYMS = ('personal_data','sensitive_data') COMMENT = 'Contains personally identifiable information'
+        consent.PII_flag AS consent.PII_flag WITH SYNONYMS = ('personal_data','sensitive_data') COMMENT = 'Contains personally identifiable information'
     )
     COMMENT = 'Semantic view for audience demographics, segmentation, and privacy analysis';
 
