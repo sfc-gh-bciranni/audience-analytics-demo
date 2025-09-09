@@ -278,125 +278,78 @@ USE SCHEMA DEMO_SCHEMA;
 -- AUDIENCE DEMOGRAPHICS & SEGMENTS SEMANTIC VIEW
 CREATE OR REPLACE SEMANTIC VIEW AUDIENCE_ANALYTICS.DEMO_SCHEMA.AUDIENCE_SEMANTIC_VIEW
     tables (
-        DEMOGRAPHICS as AUDIENCE_DEMOGRAPHICS primary key (audience_id) with synonyms=('audiences','demographics','users') comment='Core audience demographic data for targeting and segmentation',
-        SEGMENTS as AUDIENCE_SEGMENTS primary key (segment_id) with synonyms=('segments','groups','cohorts') comment='Multi-dimensional audience segments with interest-based classifications',
-        CONSENT as CONSENT_PRIVACY primary key (consent_id) with synonyms=('privacy','consent','gdpr') comment='Privacy compliance and consent status for audiences'
+        AUDIENCE_DEMOGRAPHICS,
+        AUDIENCE_SEGMENTS,
+        CONSENT_PRIVACY
     )
     relationships (
-        SEGMENTS_TO_DEMOGRAPHICS as SEGMENTS(audience_id) references DEMOGRAPHICS(audience_id),
-        CONSENT_TO_DEMOGRAPHICS as CONSENT(audience_id) references DEMOGRAPHICS(audience_id)
-    )
-    facts (
-        SEGMENTS.segment_record as 1 comment='Count of segment memberships',
-        DEMOGRAPHICS.audience_record as 1 comment='Count of audiences',
-        CONSENT.consent_record as 1 comment='Count of consent records'
+        AUDIENCE_SEGMENTS(audience_id) references AUDIENCE_DEMOGRAPHICS(audience_id),
+        CONSENT_PRIVACY(audience_id) references AUDIENCE_DEMOGRAPHICS(audience_id)
     )
     dimensions (
-        DEMOGRAPHICS.audience_id as audience_id with synonyms=('user_id','audience_identifier') comment='Unique audience identifier',
-        DEMOGRAPHICS.age_group as age_group with synonyms=('age','demographic_age') comment='Age group classification',
-        DEMOGRAPHICS.gender as gender with synonyms=('sex','demographic_gender') comment='Gender classification',
-        DEMOGRAPHICS.state as state with synonyms=('location','geography') comment='Geographic state',
-        DEMOGRAPHICS.city as city with synonyms=('location','metro') comment='Geographic city',
-        DEMOGRAPHICS.household_income as income with synonyms=('income_level','economic_segment') comment='Household income bracket',
-        DEMOGRAPHICS.education_level as education with synonyms=('education_level','academic_level') comment='Education level',
-        DEMOGRAPHICS.ethnicity as ethnicity with synonyms=('race','demographic_ethnicity') comment='Ethnic background',
-        SEGMENTS.segment_name as segment_name with synonyms=('segment','group_name') comment='Name of audience segment',
-        SEGMENTS.primary_interest as primary_interest with synonyms=('main_interest','category') comment='Primary interest category',
-        SEGMENTS.secondary_interest as secondary_interest with synonyms=('sub_interest','subcategory') comment='Secondary interest category',
-        SEGMENTS.lookalike_segment_flag as lookalike_flag with synonyms=('lookalike','modeled_segment') comment='Indicates if segment is lookalike modeled',
-        CONSENT.consent_status as consent_status with synonyms=('privacy_status','opt_status') comment='Privacy consent status',
-        CONSENT.PII_flag as pii_flag with synonyms=('personal_data','sensitive_data') comment='Contains personally identifiable information'
-    )
-    metrics (
-        segments.total_segments as COUNT(segments.segment_record) comment='Total number of segment memberships',
-        demographics.total_audiences as COUNT(demographics.audience_record) comment='Total number of audiences',
-        segments.lookalike_segments as COUNT(CASE WHEN segments.lookalike_flag = TRUE THEN segments.segment_record END) comment='Number of lookalike segments',
-        consent.opt_in_audiences as COUNT(CASE WHEN consent.consent_status = 'Opt-in' THEN consent.consent_record END) comment='Number of opted-in audiences'
+        AUDIENCE_DEMOGRAPHICS.audience_id with synonyms=('user_id','audience_identifier') comment='Unique audience identifier',
+        AUDIENCE_DEMOGRAPHICS.age_group with synonyms=('age','demographic_age') comment='Age group classification',
+        AUDIENCE_DEMOGRAPHICS.gender with synonyms=('sex','demographic_gender') comment='Gender classification',
+        AUDIENCE_DEMOGRAPHICS.state with synonyms=('location','geography') comment='Geographic state',
+        AUDIENCE_DEMOGRAPHICS.city with synonyms=('location','metro') comment='Geographic city',
+        AUDIENCE_DEMOGRAPHICS.household_income with synonyms=('income_level','economic_segment') comment='Household income bracket',
+        AUDIENCE_DEMOGRAPHICS.education_level with synonyms=('education_level','academic_level') comment='Education level',
+        AUDIENCE_DEMOGRAPHICS.ethnicity with synonyms=('race','demographic_ethnicity') comment='Ethnic background',
+        AUDIENCE_SEGMENTS.segment_name with synonyms=('segment','group_name') comment='Name of audience segment',
+        AUDIENCE_SEGMENTS.primary_interest with synonyms=('main_interest','category') comment='Primary interest category',
+        AUDIENCE_SEGMENTS.secondary_interest with synonyms=('sub_interest','subcategory') comment='Secondary interest category',
+        AUDIENCE_SEGMENTS.lookalike_segment_flag with synonyms=('lookalike','modeled_segment') comment='Indicates if segment is lookalike modeled',
+        CONSENT_PRIVACY.consent_status with synonyms=('privacy_status','opt_status') comment='Privacy consent status',
+        CONSENT_PRIVACY.PII_flag with synonyms=('personal_data','sensitive_data') comment='Contains personally identifiable information'
     )
     comment='Semantic view for audience demographics, segmentation, and privacy analysis';
 
 -- CREATIVE PERFORMANCE SEMANTIC VIEW
 CREATE OR REPLACE SEMANTIC VIEW AUDIENCE_ANALYTICS.DEMO_SCHEMA.CREATIVE_SEMANTIC_VIEW
     tables (
-        CREATIVES as CREATIVE_METADATA primary key (creative_id) with synonyms=('creatives','assets','content') comment='Creative asset metadata with image analysis and performance tags',
-        PERFORMANCE as CAMPAIGN_PERFORMANCE primary key (performance_id) with synonyms=('campaign_performance','performance_data') comment='Core performance metrics linking campaigns, segments, and creatives',
-        SEGMENTS as AUDIENCE_SEGMENTS primary key (segment_id) with synonyms=('audience_segments','segments') comment='Audience segments for performance analysis'
+        CREATIVE_METADATA,
+        CAMPAIGN_PERFORMANCE,
+        AUDIENCE_SEGMENTS
     )
     relationships (
-        PERFORMANCE_TO_CREATIVES as PERFORMANCE(creative_id) references CREATIVES(creative_id),
-        PERFORMANCE_TO_SEGMENTS as PERFORMANCE(segment_id) references SEGMENTS(segment_id)
-    )
-    facts (
-        PERFORMANCE.impressions as impressions comment='Number of impressions delivered',
-        PERFORMANCE.clicks as clicks comment='Number of clicks received',
-        PERFORMANCE.conversions as conversions comment='Number of conversions achieved',
-        PERFORMANCE.cost as cost comment='Campaign cost in dollars',
-        PERFORMANCE.ROI as roi comment='Return on investment',
-        PERFORMANCE.CTR as ctr comment='Click-through rate',
-        PERFORMANCE.performance_record as 1 comment='Count of performance records'
+        CAMPAIGN_PERFORMANCE(creative_id) references CREATIVE_METADATA(creative_id),
+        CAMPAIGN_PERFORMANCE(segment_id) references AUDIENCE_SEGMENTS(segment_id)
     )
     dimensions (
-        CREATIVES.creative_id as creative_id with synonyms=('asset_id','creative_identifier') comment='Unique creative identifier',
-        CREATIVES.image_url as image_url with synonyms=('asset_url','creative_url') comment='URL to creative asset',
-        CREATIVES.creative_format as format with synonyms=('ad_format','creative_type') comment='Format of creative asset',
-        CREATIVES.content_type as content_type with synonyms=('creative_category','asset_type') comment='Type of creative content',
-        CREATIVES.image_tags as tags with synonyms=('creative_tags','keywords') comment='Tags describing creative content',
-        CREATIVES.sentiment_score as sentiment with synonyms=('emotional_score','sentiment_analysis') comment='Sentiment analysis score for creative',
-        CREATIVES.audit_status as status with synonyms=('approval_status','creative_status') comment='Audit and approval status',
-        CREATIVES.campaign_id as campaign_id with synonyms=('campaign_identifier') comment='Campaign identifier',
-        PERFORMANCE.media_channel as channel with synonyms=('media_channel','advertising_channel') comment='Media channel used',
-        PERFORMANCE.performance_date as date with synonyms=('campaign_date','performance_date') comment='Date of performance measurement',
-        SEGMENTS.primary_interest as audience_interest with synonyms=('target_interest','audience_category') comment='Primary interest of target audience'
-    )
-    metrics (
-        performance.total_impressions as SUM(performance.impressions) comment='Total impressions across campaigns',
-        performance.total_clicks as SUM(performance.clicks) comment='Total clicks across campaigns',
-        performance.total_conversions as SUM(performance.conversions) comment='Total conversions across campaigns',
-        performance.total_cost as SUM(performance.cost) comment='Total campaign cost',
-        performance.average_roi as AVG(performance.ROI) comment='Average return on investment',
-        performance.average_ctr as AVG(performance.CTR) comment='Average click-through rate',
-        creatives.average_sentiment as AVG(creatives.sentiment) comment='Average sentiment score of creatives'
+        CREATIVE_METADATA.creative_id with synonyms=('asset_id','creative_identifier') comment='Unique creative identifier',
+        CREATIVE_METADATA.image_url with synonyms=('asset_url','creative_url') comment='URL to creative asset',
+        CREATIVE_METADATA.creative_format with synonyms=('ad_format','creative_type') comment='Format of creative asset',
+        CREATIVE_METADATA.content_type with synonyms=('creative_category','asset_type') comment='Type of creative content',
+        CREATIVE_METADATA.image_tags with synonyms=('creative_tags','keywords') comment='Tags describing creative content',
+        CREATIVE_METADATA.sentiment_score with synonyms=('emotional_score','sentiment_analysis') comment='Sentiment analysis score for creative',
+        CREATIVE_METADATA.audit_status with synonyms=('approval_status','creative_status') comment='Audit and approval status',
+        CREATIVE_METADATA.campaign_id with synonyms=('campaign_identifier') comment='Campaign identifier',
+        CAMPAIGN_PERFORMANCE.media_channel with synonyms=('media_channel','advertising_channel') comment='Media channel used',
+        CAMPAIGN_PERFORMANCE.performance_date with synonyms=('campaign_date','performance_date') comment='Date of performance measurement',
+        AUDIENCE_SEGMENTS.primary_interest with synonyms=('target_interest','audience_category') comment='Primary interest of target audience'
     )
     comment='Semantic view for creative performance optimization and asset analysis';
 
 -- ATTRIBUTION & ENGAGEMENT SEMANTIC VIEW
 CREATE OR REPLACE SEMANTIC VIEW AUDIENCE_ANALYTICS.DEMO_SCHEMA.ATTRIBUTION_SEMANTIC_VIEW
     tables (
-        ATTRIBUTION as ATTRIBUTION_EVENTS primary key (attribution_id) with synonyms=('attribution','touchpoints','journey') comment='Event-level attribution tracking for cross-channel analysis',
-        ENGAGEMENT as MEDIA_CHANNEL_ENGAGEMENT primary key (engagement_id) with synonyms=('channel_engagement','media_engagement') comment='Channel-specific audience engagement metrics and reach data',
-        DEMOGRAPHICS as AUDIENCE_DEMOGRAPHICS primary key (audience_id) with synonyms=('audiences','users') comment='Audience demographic information for attribution analysis'
+        ATTRIBUTION_EVENTS,
+        MEDIA_CHANNEL_ENGAGEMENT,
+        AUDIENCE_DEMOGRAPHICS
     )
     relationships (
-        ATTRIBUTION_TO_DEMOGRAPHICS as ATTRIBUTION(audience_id) references DEMOGRAPHICS(audience_id),
-        ENGAGEMENT_TO_DEMOGRAPHICS as ENGAGEMENT(audience_id) references DEMOGRAPHICS(audience_id)
-    )
-    facts (
-        ATTRIBUTION.attribution_percent as attribution_value comment='Attribution percentage value',
-        ATTRIBUTION.benchmark as benchmark_value comment='Benchmark attribution value',
-        ENGAGEMENT.impressions as impressions comment='Channel impressions delivered',
-        ENGAGEMENT.reach as reach comment='Channel reach achieved',
-        ENGAGEMENT.frequency as frequency comment='Channel frequency',
-        ENGAGEMENT.engagement_rate as engagement_rate comment='Channel engagement rate',
-        ATTRIBUTION.attribution_record as 1 comment='Count of attribution events',
-        ENGAGEMENT.engagement_record as 1 comment='Count of engagement records'
+        ATTRIBUTION_EVENTS(audience_id) references AUDIENCE_DEMOGRAPHICS(audience_id),
+        MEDIA_CHANNEL_ENGAGEMENT(audience_id) references AUDIENCE_DEMOGRAPHICS(audience_id)
     )
     dimensions (
-        ATTRIBUTION.campaign_id as campaign_id with synonyms=('campaign_identifier') comment='Campaign identifier for attribution',
-        ATTRIBUTION.media_channel as attribution_channel with synonyms=('channel','media_type') comment='Media channel for attribution',
-        ATTRIBUTION.timestamp as event_time with synonyms=('event_timestamp','touchpoint_time') comment='Timestamp of attribution event',
-        ATTRIBUTION.touchpoint_type as touchpoint with synonyms=('interaction_type','event_type') comment='Type of customer touchpoint',
-        ENGAGEMENT.channel_type as engagement_channel with synonyms=('media_channel','channel') comment='Media channel for engagement',
-        ENGAGEMENT.measurement_date as measurement_date with synonyms=('engagement_date','measurement_time') comment='Date of engagement measurement',
-        DEMOGRAPHICS.age_group as audience_age with synonyms=('age_segment','demographic_age') comment='Age group of audience',
-        DEMOGRAPHICS.state as audience_location with synonyms=('geography','location') comment='Geographic location of audience'
-    )
-    metrics (
-        attribution.total_attribution_events as COUNT(attribution.attribution_record) comment='Total attribution events',
-        attribution.average_attribution as AVG(attribution.attribution_value) comment='Average attribution percentage',
-        engagement.total_impressions as SUM(engagement.impressions) comment='Total channel impressions',
-        engagement.total_reach as SUM(engagement.reach) comment='Total channel reach',
-        engagement.average_frequency as AVG(engagement.frequency) comment='Average channel frequency',
-        engagement.average_engagement_rate as AVG(engagement.engagement_rate) comment='Average channel engagement rate'
+        ATTRIBUTION_EVENTS.campaign_id with synonyms=('campaign_identifier') comment='Campaign identifier for attribution',
+        ATTRIBUTION_EVENTS.media_channel with synonyms=('channel','media_type') comment='Media channel for attribution',
+        ATTRIBUTION_EVENTS.timestamp with synonyms=('event_timestamp','touchpoint_time') comment='Timestamp of attribution event',
+        ATTRIBUTION_EVENTS.touchpoint_type with synonyms=('interaction_type','event_type') comment='Type of customer touchpoint',
+        MEDIA_CHANNEL_ENGAGEMENT.channel_type with synonyms=('media_channel','channel') comment='Media channel for engagement',
+        MEDIA_CHANNEL_ENGAGEMENT.measurement_date with synonyms=('engagement_date','measurement_time') comment='Date of engagement measurement',
+        AUDIENCE_DEMOGRAPHICS.age_group with synonyms=('age_segment','demographic_age') comment='Age group of audience',
+        AUDIENCE_DEMOGRAPHICS.state with synonyms=('geography','location') comment='Geographic location of audience'
     )
     comment='Semantic view for attribution modeling and cross-channel engagement analysis';
 
