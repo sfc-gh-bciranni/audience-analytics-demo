@@ -125,8 +125,7 @@ CREATE OR REPLACE TABLE audience_segments (
     primary_interest VARCHAR(50) NOT NULL,
     secondary_interest VARCHAR(50) NOT NULL,
     lookalike_segment_flag BOOLEAN DEFAULT FALSE,
-    created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP,
-    FOREIGN KEY (audience_id) REFERENCES audience_demographics(audience_id)
+    created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP
 );
 
 -- Creative Metadata (Linked to campaigns)
@@ -152,8 +151,7 @@ CREATE OR REPLACE TABLE media_channel_engagement (
     reach INT NOT NULL DEFAULT 0,
     frequency DECIMAL(6,2) NOT NULL DEFAULT 1.00,
     engagement_rate DECIMAL(6,4) NOT NULL DEFAULT 0.0000,
-    measurement_date DATE DEFAULT (CURRENT_DATE),
-    FOREIGN KEY (audience_id) REFERENCES audience_demographics(audience_id)
+    measurement_date DATE DEFAULT (CURRENT_DATE)
 );
 
 -- Campaign Performance (Central analytics table)
@@ -169,9 +167,7 @@ CREATE OR REPLACE TABLE campaign_performance (
     cost DECIMAL(10,2) NOT NULL DEFAULT 0.00,
     ROI DECIMAL(8,2) NOT NULL DEFAULT 0.00,
     CTR DECIMAL(6,4) NOT NULL DEFAULT 0.0000,
-    performance_date DATE DEFAULT (CURRENT_DATE),
-    FOREIGN KEY (segment_id) REFERENCES audience_segments(segment_id),
-    FOREIGN KEY (creative_id) REFERENCES creative_metadata(creative_id)
+    performance_date DATE DEFAULT (CURRENT_DATE)
 );
 
 -- Attribution Events (Event-level tracking)
@@ -183,8 +179,7 @@ CREATE OR REPLACE TABLE attribution_events (
     timestamp DATETIME NOT NULL,
     touchpoint_type VARCHAR(20) NOT NULL,
     attribution_percent DECIMAL(3,2) NOT NULL DEFAULT 0.00,
-    benchmark DECIMAL(3,2) NOT NULL DEFAULT 0.00,
-    FOREIGN KEY (audience_id) REFERENCES audience_demographics(audience_id)
+    benchmark DECIMAL(3,2) NOT NULL DEFAULT 0.00
 );
 
 -- Consent Privacy (GDPR/CCPA compliance)
@@ -194,8 +189,7 @@ CREATE OR REPLACE TABLE consent_privacy (
     consent_status VARCHAR(20) NOT NULL DEFAULT 'Pending',
     PII_flag BOOLEAN DEFAULT FALSE,
     privacy_signal_timestamp DATETIME NOT NULL,
-    last_updated DATETIME NOT NULL DEFAULT CURRENT_TIMESTAMP,
-    FOREIGN KEY (audience_id) REFERENCES audience_demographics(audience_id)
+    last_updated DATETIME NOT NULL DEFAULT CURRENT_TIMESTAMP
 );
 
 -- ========================================================================
@@ -227,7 +221,7 @@ FILE_FORMAT = CSV_FORMAT
 ON_ERROR = 'CONTINUE';
 
 -- Load Campaign Performance
-COPY INTO campaign_performance
+COPY INTO campaign_performance (performance_id, campaign_id, segment_id, creative_id, media_channel, impressions, clicks, conversions, cost, ROI, CTR)
 FROM @INTERNAL_DATA_STAGE/data/campaign_performance.csv
 FILE_FORMAT = CSV_FORMAT
 ON_ERROR = 'CONTINUE';
