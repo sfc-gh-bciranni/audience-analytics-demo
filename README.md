@@ -1,351 +1,132 @@
-# Media Agency Audience Analytics Demo Dataset
+# Audience Analytics Demo for Snowflake Intelligence
 
-A comprehensive, realistic dataset for demonstrating audience exploration and creative optimization capabilities in modern media agency workflows.
-
-## 🎯 Overview
-
-This dataset simulates a complete audience analytics ecosystem with **24,106 total records** across 7 interconnected tables, designed specifically for modern media agencies. The data supports advanced analytics for:
-
-- **Creative Performance Optimization** - Link visual assets to campaign performance
-- **Audience Intelligence** - Multi-dimensional segmentation and targeting  
-- **Attribution Modeling** - Cross-channel customer journey analysis
-- **Privacy Compliance** - GDPR/CCPA consent management
-
-## 📊 Dataset Summary
-
-| Table | Records | Description |
-|-------|---------|-------------|
-| **audience_demographics** | 1,200 | Core demographic profiles with geographic and socioeconomic data |
-| **audience_segments** | 3,020 | Interest-based segments with lookalike modeling (2.5 segments per audience) |
-| **creative_metadata** | 1,500 | Image/video assets with tags, sentiment analysis, and audit status |
-| **media_channel_engagement** | 4,186 | Channel-specific engagement metrics across 9 media types |
-| **campaign_performance** | 5,000 | Core performance data linking campaigns, segments, and creatives |
-| **attribution_events** | 8,000 | Event-level touchpoint tracking for journey analysis |
-| **consent_privacy** | 1,200 | Privacy compliance and consent status for all audiences |
-
-**Total Investment Simulated:** $2.48M across 400 campaigns  
-**Total Conversions:** 96,937 with realistic ROI distribution  
-**Geographic Coverage:** 20 US states with authentic city distributions
-
-## 🏗️ Database Schema
-
-### Core Relationships
-```
-audience_demographics (1) ←→ (N) audience_segments
-audience_segments (1) ←→ (N) campaign_performance  
-creative_metadata (1) ←→ (N) campaign_performance
-audience_demographics (1) ←→ (1) consent_privacy
-audience_demographics (1) ←→ (N) media_channel_engagement
-audience_demographics (1) ←→ (N) attribution_events
-```
-
-### Key Features
-- **Foreign key integrity** maintained across all tables
-- **Realistic data distributions** with proper statistical variation  
-- **Creative-to-campaign linking** enables visual asset performance analysis
-- **Multi-channel attribution** supports complex customer journey mapping
-- **Privacy compliance** built-in for GDPR/CCPA requirements
+A comprehensive, realistic dataset and Snowflake Intelligence setup for demonstrating audience analytics, creative performance optimization, and cross-channel attribution for media agencies.
 
 ## 🚀 Quick Start
 
-### Option 1: Snowflake Intelligence Setup (Recommended)
+**Just copy and paste - that's it!**
 
-**Complete setup with AI agent in one script:**
+1. **Copy the Setup Script**:
+   - Open `scripts/snowflake_setup.sql` 
+   - Copy the entire contents (Ctrl+A, Ctrl+C)
 
-1. **GitHub Repository**
-   - Repository: `https://github.com/sfc-gh-bciranni/audience-analytics-demo`
-   - Data files organized in `/data` folder for clean structure
-   - All files automatically loaded via git integration
+2. **Run in Snowflake**:
+   - Open a new worksheet in Snowflake
+   - Paste the script (Ctrl+V)
+   - Click "Run All" or press Ctrl+Shift+Enter
+   - Wait ~2-3 minutes for complete setup
 
-2. **Run Snowflake Setup**
-   ```sql
-   -- Execute the complete setup script in Snowflake
-   -- This creates database, loads data, and sets up AI agent
-   SOURCE scripts/snowflake_setup.sql;
+3. **Start Using Your AI Agent**:
+   ```
+   "Show me the top performing creative formats by conversion rate"
+   "Which audience segments have the highest engagement rates?"  
+   "What's the attribution breakdown for our digital campaigns?"
+   "Find audiences similar to our best converting segments"
    ```
 
-3. **Access Your AI Agent**
-   - Go to Snowflake AI/ML → Snowflake Intelligence
-   - Select "Media Agency Audience Analytics Agent"
-   - Start querying with natural language!
-
-### Option 2: Manual Database Setup
-
-1. **Set Up Database**
-```sql
--- Create schema and tables
-SOURCE scripts/create_database_schema.sql;
-
--- Import CSV data (example for MySQL)
-LOAD DATA INFILE 'audience_demographics.csv' 
-INTO TABLE audience_demographics 
-FIELDS TERMINATED BY ',' 
-ENCLOSED BY '"' 
-LINES TERMINATED BY '\n' 
-IGNORE 1 ROWS;
-
--- Repeat for all 7 CSV files
-```
-
-2. **Verify Data Import**
-```sql
--- Check record counts
-SELECT 'audience_demographics' as table_name, COUNT(*) as records FROM audience_demographics
-UNION ALL
-SELECT 'audience_segments', COUNT(*) FROM audience_segments
-UNION ALL  
-SELECT 'creative_metadata', COUNT(*) FROM creative_metadata
--- ... continue for all tables
-```
-
-3. **Run Sample Analytics**
-```sql
--- Load and execute demonstration queries
-SOURCE scripts/sample_analytics_queries.sql;
-```
-
-## 🎨 Creative Integration Capabilities
-
-### Visual Asset Metadata
-- **1,500 creative assets** with realistic image URLs and metadata
-- **Sentiment analysis** scores (-1.0 to 1.0) for emotional impact assessment
-- **Content classification** (Product Shot, Lifestyle, Promotional, etc.)
-- **Format diversity** (Banner, Video, Native, Rich Media, CTV, Social Post)
-- **Audit workflows** with approval status tracking
-
-### Creative Performance Analysis
-```sql
--- Top performing creatives for Fashion & Beauty audience
-SELECT cm.creative_id, cm.image_url, cm.content_type, 
-       AVG(cp.CTR) as avg_ctr, AVG(cp.ROI) as avg_roi
-FROM creative_metadata cm
-JOIN campaign_performance cp ON cm.creative_id = cp.creative_id  
-JOIN audience_segments aseg ON cp.segment_id = aseg.segment_id
-WHERE aseg.primary_interest = 'Fashion & Beauty'
-GROUP BY cm.creative_id, cm.image_url, cm.content_type
-ORDER BY avg_roi DESC;
-```
-
-### Image Tag Filtering
-```sql
--- Filter lifestyle creatives with performance metrics
-SELECT cm.creative_id, cm.image_url, cm.image_tags,
-       SUM(cp.conversions) as total_conversions
-FROM creative_metadata cm
-JOIN campaign_performance cp ON cm.creative_id = cp.creative_id
-WHERE cm.image_tags LIKE '%lifestyle%'
-GROUP BY cm.creative_id, cm.image_url, cm.image_tags
-ORDER BY total_conversions DESC;
-```
-
-## 📈 Sample Analytics Use Cases
-
-### 1. Audience Segment Performance
-```sql
--- Compare ROI across audience interests
-SELECT aseg.primary_interest,
-       COUNT(DISTINCT aseg.audience_id) as audience_size,
-       AVG(cp.ROI) as avg_roi,
-       SUM(cp.conversions) as total_conversions
-FROM audience_segments aseg
-JOIN campaign_performance cp ON aseg.segment_id = cp.segment_id  
-GROUP BY aseg.primary_interest
-ORDER BY avg_roi DESC;
-```
-
-### 2. Cross-Channel Attribution
-```sql
--- Customer journey analysis
-SELECT ae.audience_id,
-       COUNT(DISTINCT ae.media_channel) as channels_touched,
-       STRING_AGG(ae.media_channel, ' → ') as journey_path
-FROM attribution_events ae
-GROUP BY ae.audience_id
-HAVING channels_touched > 2
-ORDER BY channels_touched DESC;
-```
-
-### 3. Creative Sentiment Impact
-```sql
--- Sentiment vs performance correlation
-SELECT CASE 
-         WHEN cm.sentiment_score > 0.5 THEN 'Highly Positive'
-         WHEN cm.sentiment_score > 0 THEN 'Positive'  
-         ELSE 'Neutral/Negative'
-       END as sentiment_category,
-       AVG(cp.CTR) as avg_ctr,
-       AVG(cp.ROI) as avg_roi
-FROM creative_metadata cm
-JOIN campaign_performance cp ON cm.creative_id = cp.creative_id
-GROUP BY sentiment_category;
-```
-
-## 🔒 Privacy & Compliance
-
-### GDPR/CCPA Support
-- **Consent tracking** with timestamps and status management
-- **PII flagging** for data processing compliance
-- **Opt-out workflows** properly modeled
-- **Data retention** policies can be implemented via timestamps
-
-### Privacy Analytics
-```sql
--- Consent status impact on engagement
-SELECT cp.consent_status,
-       COUNT(DISTINCT ad.audience_id) as audience_count,
-       AVG(mce.engagement_rate) as avg_engagement
-FROM consent_privacy cp
-JOIN audience_demographics ad ON cp.audience_id = ad.audience_id  
-JOIN media_channel_engagement mce ON ad.audience_id = mce.audience_id
-GROUP BY cp.consent_status;
-```
-
-## 📝 Data Quality & Validation
-
-### Realistic Distributions
-- **Age groups:** Even distribution across 18-65+ demographics
-- **Geography:** Weighted by US population with major metro focus
-- **Income:** Realistic household income distribution  
-- **Interests:** 24 primary + 16 secondary interest categories
-- **Channels:** 9 media types with authentic engagement patterns
-
-### Performance Metrics
-- **CTR ranges:** 0.5% to 4% based on channel type
-- **ROI distribution:** -10 to +49 with realistic business outcomes
-- **Cost structures:** Channel-appropriate CPM and CPC rates
-- **Conversion rates:** 1% to 5% funnel optimization
-
-### Data Integrity
-✅ All foreign key relationships verified  
-✅ No orphaned records across tables  
-✅ Realistic statistical distributions maintained  
-✅ Cross-table consistency validated  
-
-## 🛠️ Files Included
-
-### Project Structure
-```
-audience-analytics-demo/
-├── data/                           # CSV data files (24,106 records)
-├── scripts/                        # SQL scripts and Python utilities  
-├── docs/                          # Documentation and setup guides
-├── README.md                      # This file
-└── LICENSE                        # Apache 2.0 license
-```
-
-### Data Files (`/data` folder)
-| File | Purpose | Records |
-|------|---------|---------|
-| `data/audience_demographics.csv` | Core demographic data | 1,200 |
-| `data/audience_segments.csv` | Interest-based segments | 3,020 |
-| `data/creative_metadata.csv` | Visual asset metadata | 1,500 |
-| `data/media_channel_engagement.csv` | Channel engagement metrics | 4,186 |
-| `data/campaign_performance.csv` | Core performance data | 5,000 |
-| `data/attribution_events.csv` | Touchpoint tracking | 8,000 |
-| `data/consent_privacy.csv` | Privacy compliance | 1,200 |
-
-### Scripts (`/scripts` folder)
-| File | Purpose | Type |
-|------|---------|------|
-| `scripts/snowflake_setup.sql` | Complete Snowflake + AI setup | SQL |
-| `scripts/create_database_schema.sql` | Manual database setup | SQL |
-| `scripts/sample_analytics_queries.sql` | 15 demonstration queries | SQL |
-| `scripts/generate_audience_data.py` | Data generation script | Python |
-| `scripts/data_summary_report.py` | Validation and analysis | Python |
-
-### Documentation (`/docs` folder)
-| File | Purpose |
-|------|---------|
-| `docs/github_setup_instructions.md` | GitHub repository setup guide |
-
-## 🤖 Snowflake Intelligence Agent Capabilities
-
-The AI agent can answer natural language questions like:
-
-### 🎯 Creative Performance Analysis
-- *"What are the top performing creative formats by audience segment?"*
-- *"Show me creative sentiment impact on engagement rates"*  
-- *"Which lifestyle creatives perform best with millennials?"*
-- *"Compare banner vs video performance across age groups"*
-
-### 📊 Audience Intelligence
-- *"Which audience segments have the highest engagement rates?"*
-- *"Find high-value lookalike segments for luxury fashion campaigns"*
-- *"Show demographic distribution of our highest converting audiences"*
-- *"Analyze opt-in vs opt-out audience performance differences"*
-
-### 🔄 Attribution Modeling  
-- *"Map customer journeys from awareness to conversion across channels"*
-- *"Show me attribution paths for high-value conversions"*
-- *"Which touchpoint sequences drive the most conversions?"*
-- *"Analyze cross-channel attribution for streaming campaigns"*
-
-### 🔒 Privacy & Compliance
-- *"How does consent status affect campaign performance?"*
-- *"Show privacy compliance status across demographics"* 
-- *"Which audiences have PII data and opted-in consent?"*
-
-### 💰 ROI & Performance
-- *"Compare ROI performance across different media channels"*
-- *"Which campaigns generated the highest return on investment?"*
-- *"Show cost-per-conversion by audience segment"*
-
-## 🎪 Demo Scenarios
-
-Perfect for demonstrating modern media analytics capabilities to stakeholders, clients, and teams.
-
-## 📊 Performance Benchmarks
-
-### Expected Query Performance
-- **Simple lookups:** < 10ms (with proper indexing)
-- **Cross-table joins:** < 100ms for most analytical queries  
-- **Complex aggregations:** < 500ms for dashboard refreshes
-- **Full dataset scans:** < 2s for reporting queries
-
-### Recommended Indexes
-```sql
--- High-impact indexes for common queries
-CREATE INDEX idx_performance_segment_creative ON campaign_performance(segment_id, creative_id);
-CREATE INDEX idx_segments_interest ON audience_segments(primary_interest, secondary_interest);  
-CREATE INDEX idx_attribution_campaign_audience ON attribution_events(campaign_id, audience_id);
-```
-
-## 🚀 Next Steps
-
-### Recommended: Snowflake Intelligence Setup
-1. **Execute Setup Script:** Run `scripts/snowflake_setup.sql` in Snowflake for complete AI-powered analytics
-2. **Access AI Agent:** Use Snowflake Intelligence for natural language queries
-3. **Demo & Explore:** Leverage the AI agent for audience insights and creative optimization
-
-### Alternative: Manual Setup
-1. **Import Data:** Use provided SQL scripts in `/scripts` folder to set up your database
-2. **Explore Queries:** Run `scripts/sample_analytics_queries.sql` to understand the data structure
-3. **Build Dashboards:** Connect your BI tools for visualization  
-4. **Customize Analysis:** Modify queries for your specific use cases
-5. **Extend Dataset:** Use `scripts/generate_audience_data.py` to create additional data
-
-## 📞 Support
-
-This dataset was created for demonstration purposes and includes realistic but simulated data. All image URLs, audience profiles, and performance metrics are generated for testing and should not be considered real user data or actual campaign results.
-
-### 🛠️ **Customization**
-
-The included Python scripts in `/scripts` folder can be modified to generate additional data with different parameters:
-- Adjust audience counts, segment distributions, or geographic targeting
-- Modify creative formats, content types, or sentiment distributions  
-- Change campaign performance ranges, channel mix, or attribution models
-- Add new interest categories, demographic segments, or privacy scenarios
-
-### 📞 **Repository & Support**
-
-- **GitHub Repository**: [https://github.com/sfc-gh-bciranni/audience-analytics-demo](https://github.com/sfc-gh-bciranni/audience-analytics-demo)
-- **Setup Instructions**: See `docs/github_setup_instructions.md` for detailed deployment steps
-- **Data Generation**: Run `scripts/generate_audience_data.py` to create fresh datasets
-- **Data Validation**: Run `scripts/data_summary_report.py` to analyze existing data
+**That's it!** The script automatically:
+- ✅ Creates database and schema
+- ✅ Loads 24,000+ realistic sample records 
+- ✅ Sets up 3 semantic views for natural language queries
+- ✅ Creates an AI agent with web scraping and email capabilities
+- ✅ Configures all permissions and integrations
 
 ---
 
-**Generated by:** Media Agency Demo Data Generator  
-**Version:** 1.0  
-**Date:** 2024  
-**Total Records:** 24,106 across 7 tables
+## 📊 What You Get
+
+**24,000+ realistic records** across 7 interconnected tables:
+
+- **1,200 audience profiles** with demographics, geography, income, education
+- **3,000 audience segments** with interests and lookalike modeling
+- **1,500 creative assets** with sentiment analysis and performance tags
+- **4,200 channel engagement metrics** across TV, Digital, Social, Streaming
+- **5,000 campaign performance records** linking audiences to creatives
+- **8,000 attribution events** for cross-channel journey analysis
+- **1,200 privacy consent records** for GDPR/CCPA compliance
+
+### 🎯 Demo Capabilities
+
+- **Natural Language Queries**: Ask questions in plain English
+- **Cross-Channel Attribution**: Understand customer journeys
+- **Creative Performance**: Optimize ads based on sentiment and engagement  
+- **Audience Segmentation**: Find lookalike audiences and high-value segments
+- **Privacy Compliance**: Track consent and PII usage
+- **Web Scraping**: Analyze external content and competitors
+- **Email Notifications**: Get insights delivered automatically
+
+---
+
+## 🤖 What Your AI Agent Can Do
+
+**Ask questions like:**
+- "Which demographic segments have the highest lifetime value?"
+- "Show me lookalike audiences for my top converting segments"  
+- "Which creative formats perform best for millennial audiences?"
+- "What's the average customer journey for converted users?"
+- "How many users have opted out of data collection this month?"
+- "Find creatives with high sentiment scores but low conversion rates"
+- "Which channels contribute most to conversions in the first 7 days?"
+- "Email me a weekly summary of campaign performance"
+- "Scrape competitor landing pages and analyze their messaging"
+
+---
+
+## 📁 What's Included
+
+```
+audience-analytics-demo/
+├── scripts/snowflake_setup.sql     # 🎯 THE ONLY FILE YOU NEED
+├── data/                          # Sample CSV files (auto-loaded)
+└── README.md                      # This guide
+```
+
+---
+
+## 📋 Sample Queries (Optional)
+
+Once set up, you can also run traditional SQL:
+
+```sql
+-- Top performing demographics by conversion rate
+SELECT 
+    d.age_group, d.household_income,
+    AVG(p.CTR) as avg_ctr, AVG(p.ROI) as avg_roi
+FROM audience_demographics d
+JOIN audience_segments s ON d.audience_id = s.audience_id  
+JOIN campaign_performance p ON s.segment_id = p.segment_id
+GROUP BY d.age_group, d.household_income
+ORDER BY avg_roi DESC;
+
+-- Creative sentiment vs performance correlation
+SELECT 
+    c.creative_format,
+    AVG(c.sentiment_score) as avg_sentiment,
+    AVG(p.CTR) as avg_ctr
+FROM creative_metadata c
+JOIN campaign_performance p ON c.creative_id = p.creative_id
+GROUP BY c.creative_format
+ORDER BY avg_ctr DESC;
+```
+
+But the **AI agent is much easier** - just ask in plain English!
+
+---
+
+## 🤝 Need Help?
+
+**Having issues?** The script handles everything automatically, but if something goes wrong:
+
+1. **Check your Snowflake role** - Make sure you have ACCOUNTADMIN privileges
+2. **Run the script again** - All commands use `CREATE OR REPLACE` so it's safe to re-run
+3. **Check the data** - Query any table to verify your 24K records loaded successfully
+
+---
+
+## 📜 License
+
+Apache License 2.0 - see the [LICENSE](LICENSE) file for details.
+
+---
+
+**Ready to explore your audience data with AI?** Just copy, paste, and run! 🚀
