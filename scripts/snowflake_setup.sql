@@ -156,7 +156,7 @@ CREATE OR REPLACE TABLE media_channel_engagement (
 
 -- Campaign Performance (Central analytics table)
 CREATE OR REPLACE TABLE campaign_performance (
-    performance_id VARCHAR(10) PRIMARY KEY,
+    performance_id VARCHAR(15) PRIMARY KEY,
     campaign_id VARCHAR(10) NOT NULL,
     segment_id VARCHAR(10) NOT NULL,
     creative_id VARCHAR(10) NOT NULL,
@@ -172,7 +172,7 @@ CREATE OR REPLACE TABLE campaign_performance (
 
 -- Attribution Events (Event-level tracking)
 CREATE OR REPLACE TABLE attribution_events (
-    attribution_id VARCHAR(10) PRIMARY KEY,
+    attribution_id VARCHAR(15) PRIMARY KEY,
     campaign_id VARCHAR(10) NOT NULL,
     audience_id VARCHAR(10) NOT NULL,
     media_channel VARCHAR(20) NOT NULL,
@@ -184,7 +184,7 @@ CREATE OR REPLACE TABLE attribution_events (
 
 -- Consent Privacy (GDPR/CCPA compliance)
 CREATE OR REPLACE TABLE consent_privacy (
-    consent_id VARCHAR(10) PRIMARY KEY,
+    consent_id VARCHAR(15) PRIMARY KEY,
     audience_id VARCHAR(10) NOT NULL UNIQUE,
     consent_status VARCHAR(20) NOT NULL DEFAULT 'Pending',
     PII_flag BOOLEAN DEFAULT FALSE,
