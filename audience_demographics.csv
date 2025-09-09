@@ -1,0 +1,1201 @@
+audience_id,age_group,gender,state,city,country,household_income,education_level,ethnicity
+AUD_000001,65+,Non-binary,NY,New York City,USA,$25k-$50k,Some College,Black/African American
+AUD_000002,55-64,Prefer not to say,NY,New York City,USA,<$25k,High School,White
+AUD_000003,55-64,Male,OH,New Roberttown,USA,$100k-$150k,Some College,Mixed
+AUD_000004,25-34,Prefer not to say,MD,East Jessetown,USA,$100k-$150k,Bachelor's,Other
+AUD_000005,65+,Prefer not to say,CA,San Francisco,USA,$50k-$75k,Bachelor's,Black/African American
+AUD_000006,18-24,Male,OH,Robinsonshire,USA,$75k-$100k,High School,Hispanic/Latino
+AUD_000007,18-24,Prefer not to say,VA,Lisatown,USA,$100k-$150k,High School,Asian
+AUD_000008,65+,Non-binary,FL,Tampa,USA,$100k-$150k,Some College,Mixed
+AUD_000009,65+,Female,FL,Miami,USA,$50k-$75k,High School,Other
+AUD_000010,45-54,Non-binary,GA,North Noahstad,USA,$75k-$100k,Trade School,Other
+AUD_000011,35-44,Non-binary,VA,Cassandraton,USA,$25k-$50k,Trade School,Hispanic/Latino
+AUD_000012,55-64,Female,FL,Orlando,USA,$25k-$50k,Master's,Asian
+AUD_000013,65+,Non-binary,NC,New Kellystad,USA,<$25k,Some College,Other
+AUD_000014,45-54,Non-binary,TX,Austin,USA,<$25k,Some College,Native American
+AUD_000015,65+,Prefer not to say,NJ,Port Keith,USA,$75k-$100k,Trade School,Asian
+AUD_000016,25-34,Female,PA,Port Jesseville,USA,$150k+,Doctorate,Native American
+AUD_000017,55-64,Prefer not to say,NC,Ramirezstad,USA,$50k-$75k,Some College,Black/African American
+AUD_000018,18-24,Male,IN,West Michael,USA,<$25k,Some College,Mixed
+AUD_000019,55-64,Male,IL,Jacquelineland,USA,$75k-$100k,Master's,Native American
+AUD_000020,55-64,Male,MA,New Jessica,USA,$150k+,Trade School,White
+AUD_000021,65+,Non-binary,MD,South Noah,USA,<$25k,Bachelor's,Asian
+AUD_000022,18-24,Non-binary,IL,Lake Mark,USA,$100k-$150k,Some College,Native American
+AUD_000023,65+,Female,NY,Buffalo,USA,$25k-$50k,Bachelor's,Other
+AUD_000024,55-64,Non-binary,IL,Adamsborough,USA,$75k-$100k,High School,White
+AUD_000025,25-34,Male,VA,Jasonfort,USA,$25k-$50k,Doctorate,White
+AUD_000026,18-24,Female,FL,Jacksonville,USA,$25k-$50k,Trade School,Asian
+AUD_000027,35-44,Prefer not to say,MD,West Donald,USA,$25k-$50k,Doctorate,Other
+AUD_000028,45-54,Non-binary,OH,Juliechester,USA,$75k-$100k,Doctorate,Asian
+AUD_000029,25-34,Male,NY,Albany,USA,$50k-$75k,High School,Native American
+AUD_000030,55-64,Female,MD,Daviston,USA,<$25k,High School,Mixed
+AUD_000031,18-24,Male,TX,Dallas,USA,$50k-$75k,High School,Native American
+AUD_000032,65+,Prefer not to say,GA,South Patrickmouth,USA,$25k-$50k,Doctorate,Black/African American
+AUD_000033,25-34,Prefer not to say,MO,Tashatown,USA,$75k-$100k,Some College,White
+AUD_000034,35-44,Prefer not to say,NY,Rochester,USA,$75k-$100k,Master's,Other
+AUD_000035,18-24,Prefer not to say,TX,Houston,USA,$150k+,Bachelor's,Other
+AUD_000036,25-34,Female,NY,Albany,USA,$100k-$150k,Master's,Black/African American
+AUD_000037,35-44,Prefer not to say,AZ,Teresaburgh,USA,$25k-$50k,High School,Asian
+AUD_000038,18-24,Male,MD,Port Colleenhaven,USA,<$25k,Some College,Black/African American
+AUD_000039,45-54,Female,AZ,East Nathaniel,USA,$75k-$100k,High School,Black/African American
+AUD_000040,45-54,Non-binary,WA,New Stephanie,USA,$75k-$100k,Bachelor's,Asian
+AUD_000041,25-34,Female,MD,New Mariotown,USA,$50k-$75k,Some College,White
+AUD_000042,65+,Non-binary,MO,West Natashaport,USA,<$25k,High School,Native American
+AUD_000043,18-24,Male,TN,North John,USA,$25k-$50k,High School,Native American
+AUD_000044,45-54,Male,FL,Orlando,USA,$100k-$150k,Some College,Native American
+AUD_000045,55-64,Male,WI,East Donna,USA,$75k-$100k,Trade School,Native American
+AUD_000046,35-44,Female,MO,West Allison,USA,$150k+,Trade School,Hispanic/Latino
+AUD_000047,45-54,Female,GA,Brandtside,USA,$150k+,Trade School,Hispanic/Latino
+AUD_000048,18-24,Male,MA,Lake Larry,USA,$75k-$100k,Doctorate,Native American
+AUD_000049,55-64,Female,NY,New York City,USA,$100k-$150k,Bachelor's,Black/African American
+AUD_000050,25-34,Non-binary,VA,Martinezbury,USA,$50k-$75k,Some College,Asian
+AUD_000051,55-64,Male,MD,West Andrewside,USA,$150k+,Doctorate,Hispanic/Latino
+AUD_000052,35-44,Male,NY,Albany,USA,<$25k,Trade School,Native American
+AUD_000053,35-44,Female,PA,Lake Crystalbury,USA,$150k+,Bachelor's,Black/African American
+AUD_000054,35-44,Male,NC,North Micheleland,USA,<$25k,Trade School,Asian
+AUD_000055,18-24,Non-binary,NC,West Elizabeth,USA,$25k-$50k,Trade School,Hispanic/Latino
+AUD_000056,55-64,Prefer not to say,IL,New David,USA,$100k-$150k,High School,White
+AUD_000057,55-64,Male,FL,Orlando,USA,$50k-$75k,Doctorate,Native American
+AUD_000058,25-34,Male,PA,Leeville,USA,$50k-$75k,Bachelor's,Other
+AUD_000059,25-34,Female,TX,Austin,USA,$150k+,High School,Hispanic/Latino
+AUD_000060,55-64,Female,MD,Shieldston,USA,$25k-$50k,Some College,Other
+AUD_000061,18-24,Female,IL,North Richardmouth,USA,$150k+,Bachelor's,Other
+AUD_000062,35-44,Female,AZ,East Jamesside,USA,$150k+,High School,Asian
+AUD_000063,25-34,Female,TX,San Antonio,USA,$75k-$100k,Bachelor's,Hispanic/Latino
+AUD_000064,18-24,Female,GA,Stevenland,USA,$75k-$100k,Bachelor's,Hispanic/Latino
+AUD_000065,35-44,Prefer not to say,FL,Tampa,USA,$150k+,Doctorate,Hispanic/Latino
+AUD_000066,35-44,Female,CA,Los Angeles,USA,$100k-$150k,Bachelor's,White
+AUD_000067,35-44,Non-binary,NY,Rochester,USA,$75k-$100k,Doctorate,Native American
+AUD_000068,55-64,Female,NY,Rochester,USA,$50k-$75k,High School,Mixed
+AUD_000069,55-64,Female,AZ,Port Richard,USA,$50k-$75k,Master's,White
+AUD_000070,65+,Male,NJ,East Nicholasfurt,USA,$150k+,Bachelor's,Native American
+AUD_000071,35-44,Prefer not to say,MI,Saramouth,USA,$150k+,Bachelor's,Native American
+AUD_000072,45-54,Prefer not to say,PA,Rodneyside,USA,$150k+,Trade School,Black/African American
+AUD_000073,45-54,Male,WI,Mooreport,USA,$50k-$75k,Bachelor's,Black/African American
+AUD_000074,45-54,Prefer not to say,AZ,North Beth,USA,$75k-$100k,Trade School,Black/African American
+AUD_000075,65+,Female,IN,Lake Leeton,USA,$150k+,High School,Hispanic/Latino
+AUD_000076,18-24,Female,IN,Shawhaven,USA,$150k+,Bachelor's,Black/African American
+AUD_000077,18-24,Male,OH,North Susan,USA,$25k-$50k,Master's,Native American
+AUD_000078,45-54,Female,FL,Jacksonville,USA,$150k+,Trade School,Asian
+AUD_000079,25-34,Female,TN,South David,USA,$150k+,Trade School,White
+AUD_000080,25-34,Female,NY,Rochester,USA,$150k+,Doctorate,Asian
+AUD_000081,18-24,Prefer not to say,TX,Dallas,USA,$25k-$50k,Master's,Mixed
+AUD_000082,45-54,Prefer not to say,IN,Sarahborough,USA,$100k-$150k,Master's,Black/African American
+AUD_000083,35-44,Female,TN,Johnfurt,USA,$150k+,Bachelor's,Other
+AUD_000084,65+,Female,IN,Lake Debbie,USA,$50k-$75k,Master's,White
+AUD_000085,35-44,Non-binary,MI,Stewartland,USA,$50k-$75k,Doctorate,White
+AUD_000086,25-34,Prefer not to say,PA,South Christineshire,USA,$150k+,Some College,Mixed
+AUD_000087,45-54,Prefer not to say,OH,North Amandahaven,USA,$50k-$75k,Doctorate,Asian
+AUD_000088,25-34,Prefer not to say,AZ,Davidstad,USA,$75k-$100k,Doctorate,Mixed
+AUD_000089,45-54,Male,CA,Sacramento,USA,$50k-$75k,Bachelor's,Other
+AUD_000090,55-64,Female,WA,Bassport,USA,$75k-$100k,Some College,Hispanic/Latino
+AUD_000091,18-24,Prefer not to say,AZ,Lake Lisaport,USA,$50k-$75k,Trade School,Mixed
+AUD_000092,45-54,Female,WA,East Josephville,USA,$100k-$150k,Doctorate,White
+AUD_000093,18-24,Prefer not to say,WA,West Juan,USA,$25k-$50k,Master's,Black/African American
+AUD_000094,45-54,Non-binary,TX,Austin,USA,$25k-$50k,Master's,Hispanic/Latino
+AUD_000095,35-44,Prefer not to say,NJ,Williamview,USA,$50k-$75k,High School,Asian
+AUD_000096,35-44,Female,CA,Los Angeles,USA,$150k+,High School,Other
+AUD_000097,25-34,Female,TX,Houston,USA,<$25k,Doctorate,Black/African American
+AUD_000098,45-54,Male,GA,Evanmouth,USA,$100k-$150k,Some College,Asian
+AUD_000099,25-34,Male,NC,Hoffmanville,USA,$25k-$50k,Bachelor's,White
+AUD_000100,35-44,Prefer not to say,MO,Lake Rebeccaside,USA,$75k-$100k,Trade School,Black/African American
+AUD_000101,18-24,Non-binary,FL,Orlando,USA,$150k+,Doctorate,Other
+AUD_000102,35-44,Prefer not to say,NY,New York City,USA,$150k+,Bachelor's,White
+AUD_000103,18-24,Prefer not to say,IN,Michaelton,USA,$75k-$100k,High School,Asian
+AUD_000104,65+,Female,VA,Jasonbury,USA,$75k-$100k,Some College,Mixed
+AUD_000105,55-64,Prefer not to say,IN,West Kimberlychester,USA,$75k-$100k,Master's,Other
+AUD_000106,35-44,Female,MO,East Michelle,USA,<$25k,Bachelor's,Asian
+AUD_000107,55-64,Prefer not to say,GA,South Angel,USA,$50k-$75k,High School,Asian
+AUD_000108,45-54,Female,NJ,Kimberlychester,USA,$50k-$75k,Bachelor's,Hispanic/Latino
+AUD_000109,55-64,Male,NC,West Erik,USA,$100k-$150k,Some College,White
+AUD_000110,45-54,Female,GA,South Monicafort,USA,$150k+,Master's,Mixed
+AUD_000111,18-24,Male,TN,East Lisa,USA,$50k-$75k,Some College,Asian
+AUD_000112,65+,Non-binary,GA,Baileybury,USA,$75k-$100k,Doctorate,Native American
+AUD_000113,65+,Non-binary,VA,North Donna,USA,$50k-$75k,Trade School,Asian
+AUD_000114,35-44,Female,NC,Murphyland,USA,<$25k,Trade School,Black/African American
+AUD_000115,65+,Female,NJ,Michaelhaven,USA,$25k-$50k,Some College,Mixed
+AUD_000116,65+,Non-binary,TN,Frazierside,USA,<$25k,Some College,Hispanic/Latino
+AUD_000117,25-34,Non-binary,GA,Sheilaville,USA,<$25k,Trade School,Native American
+AUD_000118,18-24,Male,PA,Gregoryview,USA,$100k-$150k,Bachelor's,Mixed
+AUD_000119,18-24,Male,PA,North Candacestad,USA,$100k-$150k,Bachelor's,Asian
+AUD_000120,35-44,Female,TN,Samuelhaven,USA,<$25k,Bachelor's,Other
+AUD_000121,18-24,Prefer not to say,TN,South Rachelborough,USA,$75k-$100k,High School,Native American
+AUD_000122,25-34,Non-binary,TX,Dallas,USA,<$25k,Some College,White
+AUD_000123,55-64,Female,MD,New Saraside,USA,$100k-$150k,Master's,Asian
+AUD_000124,55-64,Prefer not to say,MA,West Ryan,USA,$50k-$75k,Doctorate,Native American
+AUD_000125,25-34,Female,TX,Houston,USA,$50k-$75k,Trade School,White
+AUD_000126,25-34,Male,IL,Williamchester,USA,$25k-$50k,High School,Asian
+AUD_000127,35-44,Male,MA,Richardport,USA,$25k-$50k,Bachelor's,Mixed
+AUD_000128,18-24,Female,MI,East Robert,USA,$50k-$75k,Trade School,Native American
+AUD_000129,18-24,Female,OH,Byrdburgh,USA,$150k+,Some College,Hispanic/Latino
+AUD_000130,18-24,Female,PA,Richardtown,USA,$50k-$75k,Doctorate,Mixed
+AUD_000131,45-54,Male,MO,Justinchester,USA,$75k-$100k,Trade School,Hispanic/Latino
+AUD_000132,55-64,Prefer not to say,WA,Stevenmouth,USA,$75k-$100k,High School,Native American
+AUD_000133,65+,Non-binary,TX,San Antonio,USA,$100k-$150k,Bachelor's,White
+AUD_000134,65+,Male,FL,Orlando,USA,$150k+,Bachelor's,Native American
+AUD_000135,45-54,Prefer not to say,TX,Dallas,USA,$50k-$75k,Some College,Native American
+AUD_000136,18-24,Prefer not to say,AZ,Jeffreyborough,USA,$50k-$75k,Master's,Hispanic/Latino
+AUD_000137,25-34,Non-binary,NJ,North Brandon,USA,$75k-$100k,Trade School,Asian
+AUD_000138,55-64,Male,MI,Carrland,USA,$75k-$100k,High School,Hispanic/Latino
+AUD_000139,18-24,Prefer not to say,NC,Perryshire,USA,$100k-$150k,High School,Mixed
+AUD_000140,45-54,Male,MD,Lake Heather,USA,$25k-$50k,Doctorate,Hispanic/Latino
+AUD_000141,65+,Prefer not to say,WI,Rossberg,USA,<$25k,Some College,Hispanic/Latino
+AUD_000142,35-44,Prefer not to say,MD,Port Michelleville,USA,$150k+,Master's,White
+AUD_000143,65+,Female,CA,San Francisco,USA,$50k-$75k,Doctorate,White
+AUD_000144,18-24,Female,MD,Williamsbury,USA,<$25k,Master's,White
+AUD_000145,65+,Non-binary,PA,South Dennismouth,USA,$100k-$150k,Trade School,Hispanic/Latino
+AUD_000146,45-54,Female,AZ,Stephaniemouth,USA,$75k-$100k,Doctorate,Black/African American
+AUD_000147,55-64,Female,WA,Rivasside,USA,<$25k,Bachelor's,Other
+AUD_000148,55-64,Non-binary,AZ,Merrittfort,USA,<$25k,Bachelor's,Mixed
+AUD_000149,25-34,Prefer not to say,MI,Greenbury,USA,$100k-$150k,Master's,Hispanic/Latino
+AUD_000150,45-54,Non-binary,NJ,Katiehaven,USA,$25k-$50k,Trade School,Black/African American
+AUD_000151,25-34,Prefer not to say,MO,Simsview,USA,<$25k,Bachelor's,Mixed
+AUD_000152,45-54,Female,TN,Jonesport,USA,$75k-$100k,High School,Black/African American
+AUD_000153,18-24,Prefer not to say,IN,West Matthew,USA,<$25k,Doctorate,Asian
+AUD_000154,45-54,Female,CA,San Francisco,USA,<$25k,Master's,Other
+AUD_000155,55-64,Prefer not to say,NC,Lake Jason,USA,$150k+,High School,Other
+AUD_000156,35-44,Prefer not to say,NJ,Russellside,USA,$100k-$150k,High School,Native American
+AUD_000157,65+,Non-binary,FL,Orlando,USA,$25k-$50k,Trade School,White
+AUD_000158,65+,Male,AZ,Priceshire,USA,$75k-$100k,Some College,Mixed
+AUD_000159,18-24,Non-binary,MI,Port Nicoleshire,USA,<$25k,Bachelor's,Hispanic/Latino
+AUD_000160,25-34,Female,VA,Woodsstad,USA,$100k-$150k,Master's,Native American
+AUD_000161,25-34,Male,IL,Karenchester,USA,$100k-$150k,Master's,Native American
+AUD_000162,55-64,Female,GA,South Jeffrey,USA,$25k-$50k,Master's,Mixed
+AUD_000163,35-44,Male,NC,Tuckerfurt,USA,$75k-$100k,Bachelor's,Mixed
+AUD_000164,18-24,Prefer not to say,MD,Elizabethfurt,USA,$50k-$75k,Doctorate,Hispanic/Latino
+AUD_000165,45-54,Non-binary,AZ,Port Tanner,USA,$25k-$50k,Master's,Other
+AUD_000166,25-34,Prefer not to say,TN,New Amanda,USA,$100k-$150k,Bachelor's,Native American
+AUD_000167,18-24,Prefer not to say,MI,Vargastown,USA,$50k-$75k,High School,Native American
+AUD_000168,35-44,Female,TX,San Antonio,USA,$100k-$150k,Bachelor's,Black/African American
+AUD_000169,65+,Female,OH,North Jorge,USA,$150k+,High School,Mixed
+AUD_000170,45-54,Male,TX,Austin,USA,$100k-$150k,Bachelor's,Mixed
+AUD_000171,35-44,Non-binary,PA,Kathleenfurt,USA,$150k+,Master's,Black/African American
+AUD_000172,55-64,Non-binary,OH,Karenchester,USA,$100k-$150k,Doctorate,Hispanic/Latino
+AUD_000173,45-54,Non-binary,IL,Maryfort,USA,$150k+,Bachelor's,Other
+AUD_000174,18-24,Female,NY,Rochester,USA,$25k-$50k,Trade School,Mixed
+AUD_000175,18-24,Prefer not to say,WA,Lake Casey,USA,<$25k,Bachelor's,Native American
+AUD_000176,35-44,Non-binary,NY,Rochester,USA,$100k-$150k,Master's,Other
+AUD_000177,65+,Female,VA,Port Andrew,USA,$75k-$100k,High School,Native American
+AUD_000178,55-64,Female,MD,East David,USA,$150k+,High School,Mixed
+AUD_000179,65+,Prefer not to say,MA,New Staciemouth,USA,<$25k,Some College,White
+AUD_000180,45-54,Male,TX,Austin,USA,<$25k,Some College,Native American
+AUD_000181,45-54,Non-binary,PA,Port Loriport,USA,$150k+,Trade School,Mixed
+AUD_000182,55-64,Female,MD,New Anthonyport,USA,$75k-$100k,Trade School,White
+AUD_000183,35-44,Male,TN,Sandersborough,USA,$150k+,Bachelor's,Black/African American
+AUD_000184,25-34,Non-binary,MA,New Hannahbury,USA,<$25k,Trade School,Hispanic/Latino
+AUD_000185,18-24,Prefer not to say,MD,Lake Kendraville,USA,$50k-$75k,Some College,White
+AUD_000186,65+,Female,MA,West Amandastad,USA,$150k+,Trade School,Native American
+AUD_000187,35-44,Female,CA,Los Angeles,USA,$25k-$50k,Doctorate,Black/African American
+AUD_000188,55-64,Female,FL,Orlando,USA,$25k-$50k,Bachelor's,Other
+AUD_000189,35-44,Female,PA,Yumouth,USA,$25k-$50k,Doctorate,Hispanic/Latino
+AUD_000190,65+,Male,IL,South Gregory,USA,$25k-$50k,High School,Hispanic/Latino
+AUD_000191,18-24,Female,GA,Christinaside,USA,$50k-$75k,High School,Black/African American
+AUD_000192,65+,Male,AZ,Marshallshire,USA,$75k-$100k,Master's,Other
+AUD_000193,45-54,Female,VA,Marcusbury,USA,$100k-$150k,High School,Mixed
+AUD_000194,45-54,Male,IN,West Nicolebury,USA,<$25k,Master's,Other
+AUD_000195,65+,Male,WA,Hudsonfurt,USA,$75k-$100k,Trade School,Asian
+AUD_000196,35-44,Female,FL,Miami,USA,<$25k,Some College,Hispanic/Latino
+AUD_000197,45-54,Non-binary,WI,South Jason,USA,$75k-$100k,Doctorate,Native American
+AUD_000198,65+,Male,AZ,Matthewview,USA,$150k+,Trade School,Other
+AUD_000199,45-54,Prefer not to say,MD,New Stacyland,USA,$25k-$50k,Master's,Hispanic/Latino
+AUD_000200,45-54,Male,MA,Lake Richard,USA,$50k-$75k,Master's,Hispanic/Latino
+AUD_000201,25-34,Prefer not to say,NC,Lake Thomas,USA,<$25k,High School,Other
+AUD_000202,45-54,Male,FL,Miami,USA,$150k+,Trade School,Hispanic/Latino
+AUD_000203,55-64,Non-binary,PA,West Jeffreybury,USA,$150k+,High School,Asian
+AUD_000204,65+,Male,VA,Elizabethstad,USA,$50k-$75k,Doctorate,Hispanic/Latino
+AUD_000205,55-64,Female,VA,Transtad,USA,$25k-$50k,Trade School,Asian
+AUD_000206,35-44,Non-binary,GA,Barajasside,USA,<$25k,Bachelor's,Native American
+AUD_000207,55-64,Male,GA,Michaelmouth,USA,$100k-$150k,Trade School,Other
+AUD_000208,25-34,Non-binary,NC,Kristopherbury,USA,$150k+,Bachelor's,Hispanic/Latino
+AUD_000209,25-34,Female,VA,Lake Jamesville,USA,$100k-$150k,Trade School,Asian
+AUD_000210,65+,Male,FL,Orlando,USA,<$25k,Trade School,Native American
+AUD_000211,45-54,Prefer not to say,OH,Hillshire,USA,$50k-$75k,Some College,Hispanic/Latino
+AUD_000212,55-64,Male,MI,Tinaborough,USA,<$25k,Some College,Black/African American
+AUD_000213,65+,Male,WI,Jeremyburgh,USA,$50k-$75k,Master's,Mixed
+AUD_000214,55-64,Prefer not to say,AZ,Alexisside,USA,$75k-$100k,Bachelor's,Black/African American
+AUD_000215,35-44,Prefer not to say,IN,West Brandon,USA,<$25k,Bachelor's,Mixed
+AUD_000216,55-64,Non-binary,MO,New Kellyberg,USA,<$25k,Some College,Asian
+AUD_000217,18-24,Female,WI,Garciatown,USA,$50k-$75k,Some College,Other
+AUD_000218,35-44,Non-binary,PA,Taylormouth,USA,<$25k,High School,Asian
+AUD_000219,25-34,Prefer not to say,AZ,Jackton,USA,$100k-$150k,Trade School,Black/African American
+AUD_000220,18-24,Prefer not to say,IN,Shelleyfort,USA,$150k+,High School,Asian
+AUD_000221,18-24,Non-binary,CA,Sacramento,USA,$100k-$150k,Master's,Native American
+AUD_000222,35-44,Male,WA,New Crystalton,USA,$75k-$100k,High School,Hispanic/Latino
+AUD_000223,65+,Non-binary,IL,East Lisa,USA,<$25k,Master's,Other
+AUD_000224,45-54,Prefer not to say,NY,Albany,USA,$100k-$150k,High School,Asian
+AUD_000225,25-34,Non-binary,MI,New Kathybury,USA,$25k-$50k,High School,Native American
+AUD_000226,35-44,Non-binary,NY,Albany,USA,$150k+,Trade School,Other
+AUD_000227,18-24,Female,PA,Michellechester,USA,$50k-$75k,Some College,Black/African American
+AUD_000228,65+,Male,WI,Ashleyton,USA,$25k-$50k,Trade School,Asian
+AUD_000229,65+,Non-binary,MA,Port Jaredborough,USA,$150k+,Bachelor's,Black/African American
+AUD_000230,45-54,Prefer not to say,MA,Donnaburgh,USA,$150k+,Bachelor's,Other
+AUD_000231,35-44,Male,NC,East Andrea,USA,$50k-$75k,Master's,Asian
+AUD_000232,35-44,Non-binary,TX,Houston,USA,<$25k,Trade School,Other
+AUD_000233,45-54,Male,FL,Jacksonville,USA,$75k-$100k,Doctorate,Mixed
+AUD_000234,55-64,Prefer not to say,OH,Jasminemouth,USA,$100k-$150k,Some College,White
+AUD_000235,35-44,Male,MA,Lake Jesusview,USA,$100k-$150k,Trade School,Black/African American
+AUD_000236,65+,Prefer not to say,TX,Dallas,USA,$75k-$100k,Doctorate,Native American
+AUD_000237,35-44,Non-binary,WI,Lake Edward,USA,$50k-$75k,Master's,Asian
+AUD_000238,65+,Non-binary,NJ,Margaretland,USA,<$25k,Bachelor's,White
+AUD_000239,35-44,Non-binary,MD,East Laurashire,USA,$150k+,Trade School,Native American
+AUD_000240,18-24,Female,PA,Scottmouth,USA,$50k-$75k,Bachelor's,Mixed
+AUD_000241,55-64,Male,WA,Hollyview,USA,$50k-$75k,Doctorate,Asian
+AUD_000242,65+,Male,NJ,Kimton,USA,$150k+,Trade School,Asian
+AUD_000243,18-24,Non-binary,IN,Navarroview,USA,$50k-$75k,Some College,Black/African American
+AUD_000244,25-34,Female,NJ,North Jeremyshire,USA,$25k-$50k,Some College,White
+AUD_000245,55-64,Male,MI,Port Emilyview,USA,$150k+,Bachelor's,Other
+AUD_000246,55-64,Prefer not to say,WI,Port Katelynfort,USA,$25k-$50k,Some College,Black/African American
+AUD_000247,65+,Prefer not to say,WI,Moonburgh,USA,<$25k,Master's,Hispanic/Latino
+AUD_000248,55-64,Non-binary,GA,Waltersfort,USA,$150k+,Master's,Black/African American
+AUD_000249,35-44,Prefer not to say,MD,South Michaelmouth,USA,$25k-$50k,Bachelor's,Mixed
+AUD_000250,45-54,Non-binary,MO,Elizabethburgh,USA,$75k-$100k,Doctorate,Native American
+AUD_000251,25-34,Female,AZ,Robertfort,USA,$50k-$75k,High School,Mixed
+AUD_000252,55-64,Male,TN,Elainefurt,USA,$150k+,Doctorate,Other
+AUD_000253,18-24,Female,NY,Buffalo,USA,$50k-$75k,Master's,Native American
+AUD_000254,18-24,Female,PA,Darrellfurt,USA,$75k-$100k,Bachelor's,White
+AUD_000255,45-54,Non-binary,AZ,Lake Mollymouth,USA,$25k-$50k,Master's,White
+AUD_000256,18-24,Non-binary,VA,Brownhaven,USA,<$25k,Trade School,Mixed
+AUD_000257,25-34,Male,NJ,Cindyfort,USA,$50k-$75k,Master's,Mixed
+AUD_000258,45-54,Male,PA,Wolfborough,USA,<$25k,High School,Hispanic/Latino
+AUD_000259,55-64,Prefer not to say,OH,Andreaport,USA,<$25k,Bachelor's,Black/African American
+AUD_000260,18-24,Female,MI,Gilmorefort,USA,$75k-$100k,Trade School,Other
+AUD_000261,18-24,Male,WI,North Teresabury,USA,$75k-$100k,Doctorate,Native American
+AUD_000262,65+,Female,CA,San Francisco,USA,$50k-$75k,Master's,White
+AUD_000263,25-34,Prefer not to say,WI,Davisville,USA,$25k-$50k,Trade School,Mixed
+AUD_000264,18-24,Male,FL,Tampa,USA,$75k-$100k,Master's,White
+AUD_000265,35-44,Male,WA,Cantuport,USA,$50k-$75k,High School,Hispanic/Latino
+AUD_000266,55-64,Non-binary,GA,Robertfort,USA,$25k-$50k,High School,Hispanic/Latino
+AUD_000267,65+,Female,MD,Sanchezside,USA,$150k+,Master's,Mixed
+AUD_000268,25-34,Male,TN,South James,USA,$150k+,Master's,White
+AUD_000269,18-24,Female,MI,Port Chad,USA,<$25k,Bachelor's,Hispanic/Latino
+AUD_000270,55-64,Prefer not to say,IN,Morganhaven,USA,$50k-$75k,High School,Other
+AUD_000271,35-44,Male,OH,Loriport,USA,$150k+,Bachelor's,Hispanic/Latino
+AUD_000272,45-54,Prefer not to say,NY,Buffalo,USA,$150k+,Master's,Asian
+AUD_000273,45-54,Prefer not to say,NJ,Grimesmouth,USA,$50k-$75k,Doctorate,Hispanic/Latino
+AUD_000274,18-24,Prefer not to say,FL,Jacksonville,USA,$100k-$150k,Some College,Native American
+AUD_000275,18-24,Male,MI,Gibsonmouth,USA,$50k-$75k,Trade School,Hispanic/Latino
+AUD_000276,55-64,Prefer not to say,MI,Lake John,USA,$25k-$50k,Trade School,Asian
+AUD_000277,18-24,Non-binary,VA,Hallchester,USA,$100k-$150k,Master's,Hispanic/Latino
+AUD_000278,65+,Prefer not to say,TX,Houston,USA,$50k-$75k,Doctorate,Other
+AUD_000279,25-34,Prefer not to say,IL,Mcneilberg,USA,<$25k,Some College,White
+AUD_000280,35-44,Prefer not to say,GA,Hannaberg,USA,$100k-$150k,High School,Native American
+AUD_000281,35-44,Non-binary,PA,Mollymouth,USA,$75k-$100k,High School,Native American
+AUD_000282,45-54,Non-binary,PA,New Reneetown,USA,$150k+,Bachelor's,Black/African American
+AUD_000283,65+,Female,NY,New York City,USA,$75k-$100k,Doctorate,Asian
+AUD_000284,35-44,Non-binary,MD,North Terrance,USA,$150k+,Master's,Black/African American
+AUD_000285,65+,Prefer not to say,WI,Matthewfurt,USA,$25k-$50k,High School,Black/African American
+AUD_000286,25-34,Prefer not to say,FL,Jacksonville,USA,<$25k,Trade School,Other
+AUD_000287,65+,Male,NJ,Finleyfort,USA,$100k-$150k,Doctorate,Hispanic/Latino
+AUD_000288,65+,Female,MI,New Caseyport,USA,$50k-$75k,Doctorate,Black/African American
+AUD_000289,25-34,Female,NY,Albany,USA,$75k-$100k,High School,Hispanic/Latino
+AUD_000290,45-54,Female,MD,Port Cynthiaville,USA,$100k-$150k,High School,White
+AUD_000291,65+,Prefer not to say,MI,Jacksonport,USA,$100k-$150k,Master's,Other
+AUD_000292,25-34,Non-binary,AZ,North Markton,USA,$150k+,High School,Asian
+AUD_000293,25-34,Female,MA,Michaelchester,USA,$25k-$50k,Master's,Native American
+AUD_000294,55-64,Female,TX,Houston,USA,$50k-$75k,Some College,Black/African American
+AUD_000295,35-44,Non-binary,NJ,East Gregory,USA,<$25k,Bachelor's,Black/African American
+AUD_000296,25-34,Non-binary,MD,Harveybury,USA,$100k-$150k,Doctorate,White
+AUD_000297,55-64,Female,IN,Durhamberg,USA,$25k-$50k,Trade School,Native American
+AUD_000298,55-64,Male,WI,South Dana,USA,<$25k,High School,White
+AUD_000299,65+,Female,MO,Scotttown,USA,$100k-$150k,Master's,Native American
+AUD_000300,65+,Non-binary,CA,Sacramento,USA,$150k+,Bachelor's,Asian
+AUD_000301,35-44,Prefer not to say,GA,North Scott,USA,<$25k,Trade School,White
+AUD_000302,45-54,Prefer not to say,IL,Vanessaport,USA,$75k-$100k,Some College,Hispanic/Latino
+AUD_000303,35-44,Non-binary,WI,Vaughnmouth,USA,$150k+,Bachelor's,Asian
+AUD_000304,55-64,Male,PA,Jamesfurt,USA,$50k-$75k,Some College,Asian
+AUD_000305,45-54,Female,NY,Buffalo,USA,$25k-$50k,High School,White
+AUD_000306,55-64,Prefer not to say,MI,Baileyport,USA,$25k-$50k,Some College,Other
+AUD_000307,25-34,Female,NJ,Port Dominiqueview,USA,$75k-$100k,Doctorate,Asian
+AUD_000308,45-54,Male,TN,New Michelleton,USA,<$25k,Master's,Native American
+AUD_000309,25-34,Non-binary,MA,Wallport,USA,<$25k,High School,Hispanic/Latino
+AUD_000310,35-44,Male,TN,New Laurie,USA,<$25k,Master's,Black/African American
+AUD_000311,45-54,Non-binary,NC,Lake James,USA,<$25k,Master's,White
+AUD_000312,35-44,Non-binary,MO,Ericaberg,USA,<$25k,Master's,Native American
+AUD_000313,55-64,Male,MA,Lake Debbieport,USA,$25k-$50k,High School,Asian
+AUD_000314,55-64,Non-binary,VA,Johnsonstad,USA,$25k-$50k,Some College,Native American
+AUD_000315,55-64,Male,IN,North Renee,USA,<$25k,High School,Black/African American
+AUD_000316,55-64,Prefer not to say,NJ,Julieburgh,USA,$25k-$50k,Doctorate,Native American
+AUD_000317,55-64,Non-binary,PA,East Kristin,USA,$25k-$50k,Master's,Native American
+AUD_000318,55-64,Prefer not to say,MI,Alyssaview,USA,$150k+,Doctorate,Hispanic/Latino
+AUD_000319,35-44,Non-binary,TN,West Robin,USA,$150k+,High School,Asian
+AUD_000320,65+,Male,MO,Coffeyport,USA,$100k-$150k,Master's,Hispanic/Latino
+AUD_000321,65+,Male,MO,Lindamouth,USA,$100k-$150k,Master's,Black/African American
+AUD_000322,25-34,Female,IN,East Karenbury,USA,<$25k,Doctorate,Mixed
+AUD_000323,18-24,Prefer not to say,NY,Albany,USA,$50k-$75k,Master's,Black/African American
+AUD_000324,45-54,Prefer not to say,AZ,Christopherfurt,USA,$150k+,Trade School,White
+AUD_000325,55-64,Non-binary,PA,West Amandamouth,USA,$150k+,Master's,Native American
+AUD_000326,25-34,Prefer not to say,WA,Emilyview,USA,$100k-$150k,Bachelor's,Native American
+AUD_000327,55-64,Prefer not to say,VA,Carsonstad,USA,$25k-$50k,Some College,Hispanic/Latino
+AUD_000328,25-34,Non-binary,MD,Lake Jesustown,USA,$50k-$75k,Trade School,Black/African American
+AUD_000329,45-54,Non-binary,TN,Rosebury,USA,$100k-$150k,Trade School,Hispanic/Latino
+AUD_000330,55-64,Prefer not to say,MI,Lake Madisonport,USA,$75k-$100k,Bachelor's,Other
+AUD_000331,18-24,Non-binary,PA,Wilsonton,USA,$150k+,High School,Hispanic/Latino
+AUD_000332,65+,Prefer not to say,MA,West Wendyville,USA,$25k-$50k,Some College,Other
+AUD_000333,55-64,Non-binary,MD,East Paigeberg,USA,$25k-$50k,High School,Native American
+AUD_000334,25-34,Male,MO,Chavezside,USA,$150k+,Doctorate,Black/African American
+AUD_000335,18-24,Prefer not to say,GA,Matthewsberg,USA,$50k-$75k,Trade School,Asian
+AUD_000336,18-24,Female,NY,Albany,USA,$75k-$100k,Trade School,Asian
+AUD_000337,35-44,Non-binary,TN,Crosbyview,USA,$50k-$75k,Trade School,White
+AUD_000338,55-64,Male,FL,Orlando,USA,$25k-$50k,Master's,Other
+AUD_000339,45-54,Prefer not to say,IL,Sampsonstad,USA,$25k-$50k,Trade School,Other
+AUD_000340,18-24,Non-binary,MI,Lake Michaelstad,USA,$100k-$150k,Doctorate,White
+AUD_000341,45-54,Prefer not to say,NJ,South Joshuaville,USA,$25k-$50k,Doctorate,Asian
+AUD_000342,18-24,Non-binary,NC,Davisborough,USA,$25k-$50k,Trade School,Asian
+AUD_000343,18-24,Non-binary,NC,North Kristinbury,USA,$50k-$75k,Doctorate,Mixed
+AUD_000344,55-64,Prefer not to say,OH,Port Anne,USA,$75k-$100k,Doctorate,Hispanic/Latino
+AUD_000345,65+,Male,FL,Jacksonville,USA,$25k-$50k,Some College,Asian
+AUD_000346,18-24,Non-binary,NJ,Port Molly,USA,$75k-$100k,Some College,Asian
+AUD_000347,35-44,Male,NC,Kimtown,USA,$50k-$75k,Trade School,Hispanic/Latino
+AUD_000348,65+,Male,GA,Micheleberg,USA,$75k-$100k,Bachelor's,Black/African American
+AUD_000349,65+,Male,WA,New John,USA,$150k+,Bachelor's,Hispanic/Latino
+AUD_000350,25-34,Female,WI,North Donna,USA,$75k-$100k,Some College,Asian
+AUD_000351,45-54,Prefer not to say,WI,East Alexisbury,USA,$100k-$150k,Trade School,Other
+AUD_000352,65+,Male,OH,Alfredview,USA,$100k-$150k,Master's,Native American
+AUD_000353,55-64,Male,VA,East Judyhaven,USA,<$25k,Doctorate,Native American
+AUD_000354,25-34,Non-binary,OH,Lake Brycemouth,USA,$100k-$150k,Master's,White
+AUD_000355,18-24,Prefer not to say,OH,Williamville,USA,<$25k,Master's,Black/African American
+AUD_000356,45-54,Male,IN,Gordonton,USA,$100k-$150k,Master's,Mixed
+AUD_000357,45-54,Non-binary,MI,Stephentown,USA,<$25k,Trade School,Black/African American
+AUD_000358,18-24,Prefer not to say,MO,South Melaniechester,USA,$50k-$75k,Trade School,White
+AUD_000359,18-24,Prefer not to say,MD,South Jennifermouth,USA,<$25k,Bachelor's,Asian
+AUD_000360,65+,Prefer not to say,IL,North Marcberg,USA,$50k-$75k,Master's,Asian
+AUD_000361,18-24,Female,WA,East Joshuashire,USA,$150k+,Bachelor's,White
+AUD_000362,55-64,Female,IL,Oscarhaven,USA,$150k+,Some College,Other
+AUD_000363,35-44,Prefer not to say,CA,Los Angeles,USA,$150k+,Trade School,Native American
+AUD_000364,25-34,Female,AZ,Port Jacquelineside,USA,$75k-$100k,Bachelor's,Black/African American
+AUD_000365,65+,Male,NC,South Shannon,USA,<$25k,Trade School,Asian
+AUD_000366,25-34,Female,WI,South Matthew,USA,<$25k,High School,Native American
+AUD_000367,55-64,Male,TX,San Antonio,USA,$25k-$50k,Trade School,White
+AUD_000368,25-34,Female,WA,Ronaldview,USA,<$25k,Some College,Native American
+AUD_000369,65+,Non-binary,MI,Stephaniefort,USA,$100k-$150k,Doctorate,Other
+AUD_000370,35-44,Female,NJ,North Marieland,USA,$150k+,Doctorate,Black/African American
+AUD_000371,35-44,Male,AZ,Davisstad,USA,$100k-$150k,Doctorate,Mixed
+AUD_000372,55-64,Prefer not to say,IL,New Brian,USA,<$25k,Bachelor's,Mixed
+AUD_000373,65+,Prefer not to say,WA,Elizabethchester,USA,$75k-$100k,Some College,Hispanic/Latino
+AUD_000374,55-64,Prefer not to say,WA,Morganchester,USA,$25k-$50k,Some College,Hispanic/Latino
+AUD_000375,18-24,Prefer not to say,PA,West Carolinestad,USA,$75k-$100k,Doctorate,Native American
+AUD_000376,25-34,Non-binary,PA,New Williamberg,USA,$25k-$50k,Bachelor's,Mixed
+AUD_000377,35-44,Male,FL,Jacksonville,USA,$100k-$150k,Trade School,Other
+AUD_000378,35-44,Prefer not to say,OH,Meganstad,USA,$150k+,Doctorate,Native American
+AUD_000379,25-34,Female,TX,Houston,USA,$75k-$100k,Some College,Other
+AUD_000380,18-24,Female,NJ,Bruceside,USA,$25k-$50k,Trade School,White
+AUD_000381,65+,Female,TN,New Sarahview,USA,$75k-$100k,Some College,Native American
+AUD_000382,45-54,Prefer not to say,NJ,East Joshuaport,USA,$100k-$150k,Trade School,Hispanic/Latino
+AUD_000383,35-44,Prefer not to say,MI,Michaelburgh,USA,$75k-$100k,High School,Other
+AUD_000384,25-34,Non-binary,TN,New Diane,USA,$50k-$75k,Master's,White
+AUD_000385,65+,Female,MO,East Joycetown,USA,<$25k,Bachelor's,Native American
+AUD_000386,35-44,Female,MO,Lake Alyssafurt,USA,$25k-$50k,Bachelor's,Black/African American
+AUD_000387,45-54,Non-binary,WA,Chavezburgh,USA,$50k-$75k,Master's,Mixed
+AUD_000388,25-34,Non-binary,TN,Larrymouth,USA,$25k-$50k,Some College,Mixed
+AUD_000389,25-34,Male,MD,North Ericton,USA,$100k-$150k,High School,Other
+AUD_000390,18-24,Prefer not to say,FL,Miami,USA,$25k-$50k,Trade School,Black/African American
+AUD_000391,18-24,Female,FL,Orlando,USA,$100k-$150k,Master's,Hispanic/Latino
+AUD_000392,65+,Prefer not to say,TX,San Antonio,USA,<$25k,High School,Native American
+AUD_000393,18-24,Male,MD,West Russellport,USA,$100k-$150k,Trade School,Hispanic/Latino
+AUD_000394,18-24,Prefer not to say,MD,Roseport,USA,$25k-$50k,High School,White
+AUD_000395,25-34,Female,IN,East Randallton,USA,$100k-$150k,Doctorate,Hispanic/Latino
+AUD_000396,45-54,Male,VA,East Kevinborough,USA,$50k-$75k,Master's,Asian
+AUD_000397,65+,Female,MO,Port Jonathan,USA,$50k-$75k,Trade School,Other
+AUD_000398,18-24,Prefer not to say,FL,Miami,USA,$75k-$100k,Master's,Native American
+AUD_000399,65+,Male,TN,Thompsonfurt,USA,$150k+,Some College,White
+AUD_000400,65+,Non-binary,TN,New Angelica,USA,$100k-$150k,High School,Native American
+AUD_000401,25-34,Prefer not to say,TX,Dallas,USA,$50k-$75k,High School,White
+AUD_000402,25-34,Non-binary,NC,Smithland,USA,<$25k,Some College,Native American
+AUD_000403,18-24,Non-binary,PA,Barbarashire,USA,$25k-$50k,Doctorate,Black/African American
+AUD_000404,65+,Non-binary,MO,Mckinneychester,USA,$75k-$100k,Trade School,Black/African American
+AUD_000405,18-24,Male,FL,Tampa,USA,$75k-$100k,Some College,Other
+AUD_000406,55-64,Prefer not to say,FL,Tampa,USA,$50k-$75k,High School,Mixed
+AUD_000407,45-54,Female,NC,Christopherville,USA,$50k-$75k,Doctorate,Asian
+AUD_000408,65+,Prefer not to say,AZ,South Brianna,USA,<$25k,Doctorate,Hispanic/Latino
+AUD_000409,18-24,Non-binary,GA,South Monicamouth,USA,$25k-$50k,Master's,Mixed
+AUD_000410,35-44,Non-binary,PA,West Kimberly,USA,<$25k,High School,White
+AUD_000411,35-44,Non-binary,MI,New Cynthiahaven,USA,<$25k,Some College,White
+AUD_000412,45-54,Prefer not to say,IL,Port Michael,USA,<$25k,High School,White
+AUD_000413,55-64,Non-binary,VA,East Curtis,USA,$75k-$100k,High School,Hispanic/Latino
+AUD_000414,18-24,Female,AZ,Jamesberg,USA,$100k-$150k,Doctorate,Black/African American
+AUD_000415,25-34,Non-binary,WA,East Stephaniefort,USA,$50k-$75k,Bachelor's,Asian
+AUD_000416,25-34,Prefer not to say,PA,Webstershire,USA,$50k-$75k,Master's,Hispanic/Latino
+AUD_000417,35-44,Non-binary,TN,Maldonadoshire,USA,$25k-$50k,Trade School,Mixed
+AUD_000418,45-54,Male,TN,Michellemouth,USA,$25k-$50k,Bachelor's,White
+AUD_000419,55-64,Prefer not to say,WA,South Carlos,USA,$50k-$75k,Master's,Hispanic/Latino
+AUD_000420,35-44,Non-binary,AZ,Welchview,USA,$100k-$150k,Trade School,Black/African American
+AUD_000421,25-34,Prefer not to say,TN,West Williamport,USA,$50k-$75k,Bachelor's,Mixed
+AUD_000422,35-44,Prefer not to say,TN,Hayeston,USA,$50k-$75k,Master's,Hispanic/Latino
+AUD_000423,55-64,Female,NY,Albany,USA,$150k+,Doctorate,White
+AUD_000424,45-54,Non-binary,MA,New Brookefurt,USA,$150k+,High School,Other
+AUD_000425,25-34,Non-binary,AZ,Carpenterton,USA,$25k-$50k,Bachelor's,Mixed
+AUD_000426,45-54,Male,PA,Stoutshire,USA,$75k-$100k,Doctorate,Asian
+AUD_000427,55-64,Prefer not to say,MO,West Cassidy,USA,$100k-$150k,High School,Other
+AUD_000428,18-24,Female,VA,North Shannon,USA,$150k+,Trade School,Hispanic/Latino
+AUD_000429,55-64,Prefer not to say,IL,Toniland,USA,$50k-$75k,Master's,White
+AUD_000430,35-44,Female,CA,Los Angeles,USA,$100k-$150k,Trade School,Native American
+AUD_000431,45-54,Non-binary,MD,Ritterhaven,USA,$75k-$100k,Master's,Other
+AUD_000432,35-44,Male,MO,West Nathan,USA,$75k-$100k,High School,Hispanic/Latino
+AUD_000433,18-24,Female,AZ,Paulmouth,USA,$50k-$75k,Bachelor's,Hispanic/Latino
+AUD_000434,55-64,Prefer not to say,MA,Port Crystalmouth,USA,$50k-$75k,Master's,White
+AUD_000435,35-44,Male,MA,West Codyfurt,USA,$50k-$75k,High School,Other
+AUD_000436,35-44,Male,NY,New York City,USA,$150k+,Some College,Mixed
+AUD_000437,55-64,Female,GA,Christopherberg,USA,$50k-$75k,Doctorate,Asian
+AUD_000438,45-54,Female,MA,Kylefurt,USA,$25k-$50k,Trade School,Mixed
+AUD_000439,18-24,Female,AZ,New Jeanne,USA,$75k-$100k,Doctorate,Asian
+AUD_000440,65+,Female,WA,West Angelicamouth,USA,$25k-$50k,Bachelor's,Other
+AUD_000441,55-64,Female,FL,Miami,USA,$50k-$75k,Bachelor's,Black/African American
+AUD_000442,35-44,Prefer not to say,MA,Lake Ellenhaven,USA,$100k-$150k,Trade School,Hispanic/Latino
+AUD_000443,55-64,Prefer not to say,WI,Andrewport,USA,$100k-$150k,High School,Hispanic/Latino
+AUD_000444,55-64,Female,VA,East Matthew,USA,$150k+,Trade School,Other
+AUD_000445,65+,Female,MI,Leeberg,USA,$50k-$75k,High School,Black/African American
+AUD_000446,25-34,Non-binary,MI,North Kenneth,USA,$150k+,Some College,Native American
+AUD_000447,55-64,Female,WA,New Kellihaven,USA,$100k-$150k,Master's,Asian
+AUD_000448,65+,Female,IL,Lake Matthewberg,USA,$100k-$150k,Some College,Asian
+AUD_000449,25-34,Non-binary,MI,Mooreburgh,USA,$75k-$100k,Doctorate,White
+AUD_000450,45-54,Female,VA,Lake Samuel,USA,$25k-$50k,Master's,Native American
+AUD_000451,45-54,Prefer not to say,IN,Diazbury,USA,$75k-$100k,Trade School,Other
+AUD_000452,25-34,Male,MA,Bishopmouth,USA,$100k-$150k,High School,Other
+AUD_000453,18-24,Non-binary,GA,New John,USA,$25k-$50k,Doctorate,Hispanic/Latino
+AUD_000454,55-64,Prefer not to say,IL,Mckeeborough,USA,$100k-$150k,Doctorate,White
+AUD_000455,35-44,Non-binary,MO,Erikashire,USA,$100k-$150k,High School,Other
+AUD_000456,45-54,Male,MA,Murrayport,USA,$150k+,Trade School,Other
+AUD_000457,18-24,Prefer not to say,GA,Shawchester,USA,$50k-$75k,Bachelor's,Other
+AUD_000458,18-24,Female,FL,Jacksonville,USA,$25k-$50k,Trade School,Native American
+AUD_000459,25-34,Female,VA,Port John,USA,$25k-$50k,Some College,Other
+AUD_000460,55-64,Non-binary,TX,Austin,USA,$100k-$150k,Doctorate,Black/African American
+AUD_000461,35-44,Non-binary,NJ,Lake Meghanville,USA,$100k-$150k,Trade School,Other
+AUD_000462,45-54,Male,NY,Albany,USA,$50k-$75k,Trade School,Black/African American
+AUD_000463,25-34,Non-binary,PA,Shannonhaven,USA,$25k-$50k,Trade School,Asian
+AUD_000464,55-64,Non-binary,TN,Port Samuel,USA,$150k+,Master's,Asian
+AUD_000465,65+,Male,MA,Port Shannon,USA,$75k-$100k,Doctorate,Mixed
+AUD_000466,45-54,Prefer not to say,NC,Sarahchester,USA,$50k-$75k,Doctorate,White
+AUD_000467,65+,Non-binary,FL,Jacksonville,USA,<$25k,Doctorate,Asian
+AUD_000468,25-34,Prefer not to say,OH,Vangstad,USA,$50k-$75k,Bachelor's,Other
+AUD_000469,55-64,Female,MI,North Lucas,USA,$100k-$150k,Master's,Other
+AUD_000470,18-24,Male,NJ,Port Jennifermouth,USA,$150k+,Master's,White
+AUD_000471,45-54,Prefer not to say,NY,Albany,USA,<$25k,Master's,Black/African American
+AUD_000472,25-34,Non-binary,PA,Hortonberg,USA,<$25k,Trade School,Hispanic/Latino
+AUD_000473,35-44,Female,NC,Westtown,USA,<$25k,Master's,Mixed
+AUD_000474,45-54,Male,MI,North Jonathanberg,USA,$150k+,High School,White
+AUD_000475,18-24,Female,OH,Rodriguezport,USA,$100k-$150k,Some College,Native American
+AUD_000476,18-24,Non-binary,MA,West David,USA,<$25k,Master's,Mixed
+AUD_000477,18-24,Female,PA,South Danielle,USA,$75k-$100k,High School,Mixed
+AUD_000478,35-44,Non-binary,NY,New York City,USA,$50k-$75k,Some College,Asian
+AUD_000479,18-24,Male,PA,Lake Zacharybury,USA,$100k-$150k,Trade School,Black/African American
+AUD_000480,65+,Female,MA,West Ruben,USA,$150k+,Trade School,Black/African American
+AUD_000481,25-34,Male,AZ,Johnchester,USA,<$25k,Some College,Other
+AUD_000482,35-44,Prefer not to say,NY,Rochester,USA,$50k-$75k,Some College,Black/African American
+AUD_000483,25-34,Non-binary,NC,Carloshaven,USA,$150k+,High School,Other
+AUD_000484,55-64,Female,MI,South Morganton,USA,$150k+,Master's,Hispanic/Latino
+AUD_000485,45-54,Prefer not to say,TX,Dallas,USA,<$25k,Some College,Asian
+AUD_000486,55-64,Male,WI,West Kristinastad,USA,$50k-$75k,Bachelor's,Black/African American
+AUD_000487,35-44,Female,WA,Lake Diane,USA,$75k-$100k,High School,White
+AUD_000488,18-24,Non-binary,MO,Port Bonniemouth,USA,$25k-$50k,High School,White
+AUD_000489,65+,Prefer not to say,WA,North Michael,USA,$75k-$100k,Trade School,Asian
+AUD_000490,35-44,Male,FL,Orlando,USA,$50k-$75k,High School,Native American
+AUD_000491,55-64,Non-binary,OH,Pollardfort,USA,$75k-$100k,Doctorate,Mixed
+AUD_000492,65+,Prefer not to say,FL,Tampa,USA,$150k+,Some College,White
+AUD_000493,45-54,Male,GA,Johnsonborough,USA,$75k-$100k,Doctorate,Native American
+AUD_000494,65+,Female,TX,Austin,USA,<$25k,High School,Mixed
+AUD_000495,25-34,Prefer not to say,PA,Sarahhaven,USA,$50k-$75k,Doctorate,Native American
+AUD_000496,35-44,Female,NC,Haysside,USA,$150k+,Bachelor's,Mixed
+AUD_000497,35-44,Prefer not to say,NY,New York City,USA,$50k-$75k,Doctorate,White
+AUD_000498,45-54,Prefer not to say,NC,Michaelton,USA,$100k-$150k,Bachelor's,White
+AUD_000499,35-44,Female,TN,Joshuastad,USA,$50k-$75k,High School,Native American
+AUD_000500,65+,Male,NY,Albany,USA,<$25k,High School,Black/African American
+AUD_000501,35-44,Prefer not to say,TX,San Antonio,USA,$25k-$50k,Some College,Other
+AUD_000502,25-34,Non-binary,TX,San Antonio,USA,$25k-$50k,Master's,Mixed
+AUD_000503,18-24,Non-binary,NJ,Lauriechester,USA,<$25k,Doctorate,Mixed
+AUD_000504,25-34,Male,TX,Dallas,USA,$75k-$100k,High School,Asian
+AUD_000505,35-44,Male,MI,Manuelland,USA,$100k-$150k,Master's,White
+AUD_000506,35-44,Non-binary,VA,Donnaport,USA,$150k+,Doctorate,Black/African American
+AUD_000507,55-64,Prefer not to say,MA,Morrisonchester,USA,$25k-$50k,Trade School,Native American
+AUD_000508,18-24,Prefer not to say,GA,Lake Scott,USA,<$25k,Some College,Native American
+AUD_000509,35-44,Male,VA,Williamsstad,USA,$150k+,Master's,Other
+AUD_000510,25-34,Female,MI,Hillton,USA,$75k-$100k,Master's,White
+AUD_000511,18-24,Male,PA,Lake Danastad,USA,$25k-$50k,Doctorate,Asian
+AUD_000512,65+,Male,VA,North Douglas,USA,$100k-$150k,High School,Native American
+AUD_000513,18-24,Male,PA,Johnsonland,USA,$75k-$100k,Trade School,Black/African American
+AUD_000514,35-44,Non-binary,GA,Port Deanna,USA,$75k-$100k,Trade School,Other
+AUD_000515,45-54,Non-binary,NJ,Patrickshire,USA,$25k-$50k,High School,Black/African American
+AUD_000516,25-34,Male,PA,New Ericmouth,USA,$25k-$50k,Master's,Asian
+AUD_000517,18-24,Non-binary,NJ,Nathanland,USA,$25k-$50k,Master's,Hispanic/Latino
+AUD_000518,18-24,Male,MA,New Michael,USA,$25k-$50k,Trade School,Hispanic/Latino
+AUD_000519,25-34,Non-binary,WI,Debrabury,USA,$25k-$50k,High School,Mixed
+AUD_000520,45-54,Male,GA,North Jillfort,USA,$150k+,Bachelor's,Hispanic/Latino
+AUD_000521,45-54,Prefer not to say,IL,Mcintyreville,USA,$100k-$150k,Trade School,Native American
+AUD_000522,45-54,Male,GA,Kimberlymouth,USA,$25k-$50k,High School,White
+AUD_000523,25-34,Female,TX,Dallas,USA,$75k-$100k,Bachelor's,Mixed
+AUD_000524,18-24,Male,FL,Tampa,USA,<$25k,Some College,Mixed
+AUD_000525,18-24,Non-binary,MA,South Geraldmouth,USA,<$25k,High School,Asian
+AUD_000526,55-64,Prefer not to say,TX,Dallas,USA,$150k+,Master's,Asian
+AUD_000527,65+,Prefer not to say,CA,Sacramento,USA,$25k-$50k,Bachelor's,Black/African American
+AUD_000528,35-44,Prefer not to say,IL,Patriciaburgh,USA,$25k-$50k,High School,Native American
+AUD_000529,65+,Non-binary,WI,Port Michael,USA,$75k-$100k,Master's,Native American
+AUD_000530,18-24,Non-binary,TN,North Tracie,USA,$75k-$100k,Some College,Asian
+AUD_000531,65+,Male,OH,East Kristy,USA,$75k-$100k,Trade School,Hispanic/Latino
+AUD_000532,35-44,Non-binary,TN,West Angelastad,USA,$75k-$100k,Bachelor's,Black/African American
+AUD_000533,55-64,Female,CA,San Diego,USA,<$25k,Bachelor's,White
+AUD_000534,55-64,Female,TN,New Nicole,USA,$25k-$50k,High School,Black/African American
+AUD_000535,55-64,Male,GA,West Raymondfort,USA,$25k-$50k,Doctorate,Other
+AUD_000536,25-34,Female,WA,Hammondshire,USA,$25k-$50k,Doctorate,Hispanic/Latino
+AUD_000537,65+,Non-binary,VA,East Teresaland,USA,$100k-$150k,Doctorate,Black/African American
+AUD_000538,45-54,Non-binary,MO,Owenshaven,USA,$25k-$50k,Master's,White
+AUD_000539,25-34,Female,FL,Miami,USA,<$25k,Doctorate,Asian
+AUD_000540,55-64,Female,CA,San Diego,USA,$25k-$50k,Bachelor's,Mixed
+AUD_000541,18-24,Male,IL,Shawton,USA,$25k-$50k,Doctorate,Mixed
+AUD_000542,55-64,Non-binary,PA,New Ericburgh,USA,<$25k,Bachelor's,Mixed
+AUD_000543,35-44,Non-binary,WA,West Sarah,USA,$50k-$75k,Some College,Black/African American
+AUD_000544,65+,Non-binary,AZ,West Stacey,USA,$25k-$50k,Trade School,Native American
+AUD_000545,25-34,Female,WI,Meghanview,USA,$75k-$100k,Bachelor's,Mixed
+AUD_000546,25-34,Male,MI,Lake Stephanie,USA,$150k+,Doctorate,Asian
+AUD_000547,25-34,Non-binary,MO,Davidport,USA,$100k-$150k,Some College,Mixed
+AUD_000548,45-54,Female,MO,New Danielleshire,USA,$50k-$75k,Trade School,White
+AUD_000549,35-44,Female,GA,East Donna,USA,$150k+,High School,Other
+AUD_000550,18-24,Non-binary,NJ,Meganshire,USA,$25k-$50k,Some College,Mixed
+AUD_000551,35-44,Male,FL,Tampa,USA,$150k+,High School,White
+AUD_000552,65+,Prefer not to say,WA,Lake Kelliview,USA,$25k-$50k,Master's,Asian
+AUD_000553,55-64,Prefer not to say,WA,Port Ashley,USA,<$25k,Master's,Other
+AUD_000554,25-34,Prefer not to say,MO,South Pamelaside,USA,<$25k,High School,Hispanic/Latino
+AUD_000555,35-44,Male,CA,San Diego,USA,<$25k,Bachelor's,Black/African American
+AUD_000556,65+,Male,WA,Sanchezfurt,USA,$100k-$150k,High School,Hispanic/Latino
+AUD_000557,65+,Male,WI,Shawnton,USA,$75k-$100k,Trade School,Black/African American
+AUD_000558,25-34,Male,WI,South Robert,USA,<$25k,Bachelor's,Black/African American
+AUD_000559,65+,Non-binary,OH,Harrisberg,USA,$150k+,Bachelor's,Hispanic/Latino
+AUD_000560,18-24,Prefer not to say,GA,Michellemouth,USA,$100k-$150k,Doctorate,Other
+AUD_000561,18-24,Non-binary,TN,Theresaberg,USA,<$25k,Master's,White
+AUD_000562,25-34,Male,MI,Zacharyville,USA,<$25k,Some College,Black/African American
+AUD_000563,45-54,Male,MI,Johnville,USA,$50k-$75k,Master's,Asian
+AUD_000564,18-24,Prefer not to say,TN,Shannonberg,USA,$25k-$50k,Bachelor's,Asian
+AUD_000565,45-54,Male,VA,North Kellyfurt,USA,$50k-$75k,Master's,Asian
+AUD_000566,35-44,Male,NC,Wrightburgh,USA,$25k-$50k,Trade School,Mixed
+AUD_000567,65+,Non-binary,NY,New York City,USA,$100k-$150k,Master's,Other
+AUD_000568,55-64,Male,MO,Port Erik,USA,$75k-$100k,Doctorate,Asian
+AUD_000569,55-64,Female,MD,Jimenezport,USA,$75k-$100k,Bachelor's,White
+AUD_000570,55-64,Female,WA,Johnsonfurt,USA,<$25k,Master's,Black/African American
+AUD_000571,25-34,Female,IL,Levyborough,USA,<$25k,Master's,White
+AUD_000572,65+,Female,AZ,Brandonport,USA,$100k-$150k,Bachelor's,Hispanic/Latino
+AUD_000573,45-54,Prefer not to say,FL,Miami,USA,$100k-$150k,Bachelor's,Other
+AUD_000574,18-24,Prefer not to say,NC,Amandaville,USA,<$25k,Master's,Black/African American
+AUD_000575,18-24,Male,PA,Andersonview,USA,$50k-$75k,Doctorate,Hispanic/Latino
+AUD_000576,45-54,Prefer not to say,AZ,Kathrynstad,USA,$100k-$150k,Doctorate,Asian
+AUD_000577,35-44,Prefer not to say,TX,Dallas,USA,$25k-$50k,Doctorate,Native American
+AUD_000578,45-54,Non-binary,WA,West Angela,USA,$150k+,Some College,White
+AUD_000579,35-44,Male,TN,South Williamside,USA,$50k-$75k,Bachelor's,Hispanic/Latino
+AUD_000580,65+,Male,NC,Marciaville,USA,$25k-$50k,Some College,Hispanic/Latino
+AUD_000581,35-44,Prefer not to say,MA,North Phillip,USA,$100k-$150k,Trade School,White
+AUD_000582,25-34,Prefer not to say,OH,Angelastad,USA,$150k+,Master's,Other
+AUD_000583,18-24,Female,IN,East Carrie,USA,<$25k,Bachelor's,Mixed
+AUD_000584,25-34,Male,IN,Porterton,USA,$25k-$50k,Some College,Other
+AUD_000585,25-34,Male,OH,East Jenniferfort,USA,$75k-$100k,High School,Hispanic/Latino
+AUD_000586,35-44,Prefer not to say,OH,Hernandezhaven,USA,$100k-$150k,Master's,Mixed
+AUD_000587,25-34,Non-binary,NY,New York City,USA,$75k-$100k,Doctorate,Asian
+AUD_000588,55-64,Non-binary,IL,Franciscoport,USA,$50k-$75k,Some College,Other
+AUD_000589,35-44,Male,NC,Williamhaven,USA,$75k-$100k,High School,Black/African American
+AUD_000590,25-34,Female,MO,Ericksonport,USA,$150k+,Some College,Hispanic/Latino
+AUD_000591,65+,Male,AZ,Cabrerastad,USA,$75k-$100k,Some College,Mixed
+AUD_000592,25-34,Non-binary,IL,Emilychester,USA,$100k-$150k,Bachelor's,Mixed
+AUD_000593,45-54,Non-binary,NC,Lauratown,USA,$75k-$100k,Bachelor's,Black/African American
+AUD_000594,65+,Prefer not to say,MA,Bakershire,USA,$100k-$150k,High School,White
+AUD_000595,55-64,Non-binary,IN,Lake Brett,USA,$50k-$75k,Trade School,White
+AUD_000596,35-44,Non-binary,TN,Jacksonfurt,USA,$150k+,Bachelor's,Other
+AUD_000597,65+,Non-binary,NC,Port Erin,USA,$25k-$50k,Some College,Native American
+AUD_000598,55-64,Prefer not to say,GA,New Stacyville,USA,$150k+,Bachelor's,Mixed
+AUD_000599,65+,Prefer not to say,PA,North Scott,USA,$50k-$75k,Bachelor's,Asian
+AUD_000600,65+,Male,WA,Hernandezborough,USA,$100k-$150k,Trade School,Native American
+AUD_000601,65+,Female,OH,Shawfort,USA,$150k+,Doctorate,Mixed
+AUD_000602,55-64,Non-binary,TN,Lake Devinborough,USA,$25k-$50k,Trade School,Native American
+AUD_000603,18-24,Prefer not to say,IL,Whitneyfort,USA,$25k-$50k,Trade School,Hispanic/Latino
+AUD_000604,65+,Non-binary,MD,Edwardsburgh,USA,$150k+,High School,Black/African American
+AUD_000605,65+,Non-binary,VA,Barrmouth,USA,$75k-$100k,Bachelor's,Hispanic/Latino
+AUD_000606,45-54,Male,NC,Ericaview,USA,$75k-$100k,High School,Other
+AUD_000607,45-54,Female,MO,Leebury,USA,$100k-$150k,High School,Other
+AUD_000608,45-54,Male,WA,Angelabury,USA,$25k-$50k,Some College,Black/African American
+AUD_000609,55-64,Prefer not to say,NJ,Kellieborough,USA,$25k-$50k,Bachelor's,Other
+AUD_000610,45-54,Non-binary,IL,Stewartstad,USA,$150k+,Some College,Hispanic/Latino
+AUD_000611,45-54,Non-binary,TX,Houston,USA,$25k-$50k,Some College,Native American
+AUD_000612,18-24,Female,IL,Huangfurt,USA,$100k-$150k,Master's,Mixed
+AUD_000613,45-54,Prefer not to say,AZ,Stephanieberg,USA,$75k-$100k,High School,White
+AUD_000614,65+,Non-binary,MD,Bobbyland,USA,<$25k,Bachelor's,Other
+AUD_000615,18-24,Male,IN,Sandraview,USA,$150k+,Trade School,Black/African American
+AUD_000616,35-44,Female,GA,Lewisside,USA,<$25k,Master's,Native American
+AUD_000617,25-34,Male,MO,Sarahview,USA,<$25k,Bachelor's,Hispanic/Latino
+AUD_000618,45-54,Female,MA,North Christina,USA,$50k-$75k,Master's,Hispanic/Latino
+AUD_000619,45-54,Male,OH,East Brent,USA,$25k-$50k,Some College,Mixed
+AUD_000620,65+,Male,PA,Lake Jesse,USA,$100k-$150k,Doctorate,Black/African American
+AUD_000621,65+,Male,NY,Buffalo,USA,$75k-$100k,Trade School,Hispanic/Latino
+AUD_000622,55-64,Male,MD,Lake Kellitown,USA,$150k+,High School,Mixed
+AUD_000623,65+,Male,CA,Los Angeles,USA,$75k-$100k,Master's,Asian
+AUD_000624,45-54,Female,NY,Buffalo,USA,$25k-$50k,Trade School,Mixed
+AUD_000625,45-54,Male,CA,San Diego,USA,$150k+,Doctorate,Hispanic/Latino
+AUD_000626,45-54,Male,WI,Lake Audreyside,USA,$100k-$150k,Trade School,Native American
+AUD_000627,18-24,Male,NY,Buffalo,USA,$75k-$100k,Some College,Native American
+AUD_000628,55-64,Female,OH,Port Randyfort,USA,$50k-$75k,Trade School,Asian
+AUD_000629,18-24,Prefer not to say,MI,Lake Suzanne,USA,$25k-$50k,Trade School,Asian
+AUD_000630,18-24,Male,NJ,Nancytown,USA,$150k+,High School,White
+AUD_000631,25-34,Male,MO,Ashleyville,USA,$100k-$150k,High School,Mixed
+AUD_000632,65+,Female,NY,Buffalo,USA,$75k-$100k,Bachelor's,Hispanic/Latino
+AUD_000633,18-24,Female,MA,Smallberg,USA,<$25k,Bachelor's,Hispanic/Latino
+AUD_000634,65+,Male,NJ,Nelsonville,USA,<$25k,High School,White
+AUD_000635,35-44,Non-binary,PA,Franciscomouth,USA,$75k-$100k,Doctorate,Hispanic/Latino
+AUD_000636,35-44,Female,FL,Tampa,USA,<$25k,Master's,Asian
+AUD_000637,45-54,Prefer not to say,MA,Krystalshire,USA,$75k-$100k,Trade School,Other
+AUD_000638,25-34,Male,IL,East Cheryl,USA,$25k-$50k,High School,Asian
+AUD_000639,55-64,Prefer not to say,MO,Wilcoxhaven,USA,$25k-$50k,Doctorate,Asian
+AUD_000640,65+,Female,VA,Christopherville,USA,$75k-$100k,Master's,White
+AUD_000641,18-24,Male,AZ,East Thomas,USA,$50k-$75k,Trade School,Hispanic/Latino
+AUD_000642,65+,Non-binary,CA,San Francisco,USA,$100k-$150k,Doctorate,Mixed
+AUD_000643,45-54,Female,WI,South Karen,USA,$75k-$100k,Bachelor's,Mixed
+AUD_000644,55-64,Male,WA,Kevinshire,USA,<$25k,Trade School,Black/African American
+AUD_000645,45-54,Female,IN,West Desireebury,USA,<$25k,Master's,Hispanic/Latino
+AUD_000646,35-44,Male,GA,Lake Davidport,USA,$100k-$150k,Some College,Native American
+AUD_000647,25-34,Male,WA,South Gina,USA,$75k-$100k,Master's,Other
+AUD_000648,18-24,Prefer not to say,MO,Hannahport,USA,$75k-$100k,Bachelor's,White
+AUD_000649,18-24,Prefer not to say,TN,Christinabury,USA,$75k-$100k,High School,Native American
+AUD_000650,18-24,Non-binary,MD,South Eric,USA,$100k-$150k,Doctorate,Black/African American
+AUD_000651,35-44,Male,MA,Robertside,USA,$25k-$50k,Master's,Hispanic/Latino
+AUD_000652,65+,Non-binary,MD,Toddborough,USA,$150k+,Master's,White
+AUD_000653,18-24,Non-binary,NY,Albany,USA,$50k-$75k,Trade School,Other
+AUD_000654,65+,Male,MI,New Seanstad,USA,<$25k,Some College,Asian
+AUD_000655,18-24,Non-binary,PA,New Danielside,USA,$100k-$150k,Some College,Black/African American
+AUD_000656,25-34,Prefer not to say,NY,Rochester,USA,$25k-$50k,Trade School,Hispanic/Latino
+AUD_000657,18-24,Male,NY,Rochester,USA,$75k-$100k,Master's,Mixed
+AUD_000658,45-54,Male,MO,Wilsonborough,USA,$100k-$150k,Trade School,White
+AUD_000659,55-64,Prefer not to say,MD,Davishaven,USA,$100k-$150k,Some College,Mixed
+AUD_000660,65+,Female,MO,Stokesmouth,USA,<$25k,Master's,Mixed
+AUD_000661,55-64,Prefer not to say,WI,New Robert,USA,$75k-$100k,Doctorate,Mixed
+AUD_000662,45-54,Non-binary,GA,New Stevenport,USA,$50k-$75k,Master's,Other
+AUD_000663,45-54,Non-binary,PA,South Jonathantown,USA,$150k+,Doctorate,Other
+AUD_000664,25-34,Female,NJ,New Charles,USA,$100k-$150k,Trade School,Hispanic/Latino
+AUD_000665,65+,Female,VA,Cooperland,USA,$100k-$150k,Doctorate,Mixed
+AUD_000666,35-44,Prefer not to say,NJ,North Valeriefort,USA,$100k-$150k,Doctorate,Mixed
+AUD_000667,45-54,Male,AZ,West Robertberg,USA,$100k-$150k,High School,White
+AUD_000668,18-24,Male,WA,Brooksfurt,USA,$25k-$50k,Bachelor's,Other
+AUD_000669,65+,Non-binary,IL,Kanefurt,USA,$25k-$50k,High School,Mixed
+AUD_000670,55-64,Male,MI,Millerside,USA,$50k-$75k,Master's,White
+AUD_000671,65+,Prefer not to say,WI,Lake Michelle,USA,$25k-$50k,Doctorate,Other
+AUD_000672,45-54,Prefer not to say,MI,East Victoriafurt,USA,$75k-$100k,Trade School,Hispanic/Latino
+AUD_000673,18-24,Non-binary,MD,Lake Tiffany,USA,$25k-$50k,Doctorate,Other
+AUD_000674,65+,Non-binary,MA,Port Andrewport,USA,$100k-$150k,Doctorate,Mixed
+AUD_000675,65+,Female,WI,Nunezside,USA,$50k-$75k,Master's,Black/African American
+AUD_000676,25-34,Male,FL,Orlando,USA,$75k-$100k,High School,Asian
+AUD_000677,25-34,Female,NC,South Michael,USA,$100k-$150k,Bachelor's,White
+AUD_000678,65+,Female,NJ,Jacobville,USA,<$25k,Some College,Hispanic/Latino
+AUD_000679,65+,Non-binary,WI,Port Donnatown,USA,$75k-$100k,Doctorate,Native American
+AUD_000680,65+,Non-binary,VA,East Carlos,USA,$100k-$150k,Some College,Black/African American
+AUD_000681,55-64,Female,IN,South Carlaton,USA,$75k-$100k,Doctorate,Native American
+AUD_000682,35-44,Female,WA,Lake Bradley,USA,$25k-$50k,Trade School,Hispanic/Latino
+AUD_000683,35-44,Female,NJ,Youngborough,USA,$100k-$150k,Doctorate,Asian
+AUD_000684,18-24,Non-binary,MD,East Williamport,USA,$75k-$100k,Some College,Mixed
+AUD_000685,18-24,Non-binary,WI,Port Sabrina,USA,$75k-$100k,High School,Asian
+AUD_000686,18-24,Non-binary,NC,Barbaramouth,USA,$100k-$150k,Doctorate,Asian
+AUD_000687,35-44,Female,TN,West Nancy,USA,$50k-$75k,Doctorate,White
+AUD_000688,55-64,Male,NY,Albany,USA,$150k+,High School,Black/African American
+AUD_000689,18-24,Female,OH,New Stacyburgh,USA,$100k-$150k,Trade School,Mixed
+AUD_000690,65+,Female,AZ,Peterston,USA,<$25k,Master's,Mixed
+AUD_000691,18-24,Male,NJ,Shellyfurt,USA,<$25k,Some College,Other
+AUD_000692,55-64,Female,NC,Heatherchester,USA,$50k-$75k,Master's,Asian
+AUD_000693,45-54,Non-binary,MA,West Nicholas,USA,<$25k,Master's,Mixed
+AUD_000694,65+,Male,NY,New York City,USA,$150k+,Doctorate,White
+AUD_000695,55-64,Male,FL,Tampa,USA,$50k-$75k,Trade School,Hispanic/Latino
+AUD_000696,35-44,Prefer not to say,WI,Melendezside,USA,$75k-$100k,Master's,Other
+AUD_000697,25-34,Female,CA,Sacramento,USA,$25k-$50k,Trade School,Asian
+AUD_000698,65+,Female,MD,South John,USA,$50k-$75k,Trade School,Other
+AUD_000699,55-64,Female,VA,West Deborah,USA,<$25k,High School,White
+AUD_000700,55-64,Male,MO,Booneland,USA,$50k-$75k,Some College,Mixed
+AUD_000701,45-54,Female,VA,North Joseph,USA,$25k-$50k,Some College,Black/African American
+AUD_000702,25-34,Male,WI,Port Charlesshire,USA,$25k-$50k,Trade School,Other
+AUD_000703,55-64,Prefer not to say,MO,South Jason,USA,$150k+,Doctorate,White
+AUD_000704,35-44,Male,MI,Kevintown,USA,$25k-$50k,Trade School,Native American
+AUD_000705,35-44,Female,TN,East Suzanne,USA,$150k+,Trade School,Black/African American
+AUD_000706,55-64,Male,NY,Buffalo,USA,$25k-$50k,Bachelor's,Asian
+AUD_000707,55-64,Non-binary,MA,Lake Cassandra,USA,$150k+,Doctorate,Black/African American
+AUD_000708,35-44,Prefer not to say,MO,South Rose,USA,$25k-$50k,High School,Hispanic/Latino
+AUD_000709,65+,Prefer not to say,GA,Kimberlyfurt,USA,$50k-$75k,Bachelor's,Black/African American
+AUD_000710,45-54,Prefer not to say,NJ,Fergusonstad,USA,$50k-$75k,Bachelor's,Asian
+AUD_000711,25-34,Male,MD,Josehaven,USA,$50k-$75k,Some College,Native American
+AUD_000712,65+,Male,OH,Owensfort,USA,$150k+,High School,White
+AUD_000713,55-64,Prefer not to say,IN,Robinstad,USA,$100k-$150k,Some College,White
+AUD_000714,55-64,Prefer not to say,MD,Robertshire,USA,$150k+,Some College,Hispanic/Latino
+AUD_000715,55-64,Non-binary,WA,Lake Dustin,USA,$25k-$50k,Master's,Native American
+AUD_000716,45-54,Non-binary,IN,Angelashire,USA,$100k-$150k,High School,Mixed
+AUD_000717,55-64,Female,GA,Phillipsborough,USA,$75k-$100k,Some College,Black/African American
+AUD_000718,65+,Prefer not to say,MO,Jerryshire,USA,$50k-$75k,High School,Black/African American
+AUD_000719,18-24,Non-binary,TN,South Andrea,USA,$50k-$75k,Some College,White
+AUD_000720,45-54,Prefer not to say,OH,Jonathanfort,USA,$75k-$100k,High School,White
+AUD_000721,65+,Non-binary,NJ,Murraystad,USA,$150k+,Bachelor's,Native American
+AUD_000722,45-54,Prefer not to say,MD,East Jennifer,USA,$50k-$75k,Doctorate,Mixed
+AUD_000723,45-54,Female,FL,Tampa,USA,$100k-$150k,Master's,Hispanic/Latino
+AUD_000724,45-54,Male,VA,New Arthurland,USA,$100k-$150k,Some College,Asian
+AUD_000725,18-24,Non-binary,IL,Port Adamberg,USA,$25k-$50k,Some College,Black/African American
+AUD_000726,55-64,Male,IL,North Jasmine,USA,$150k+,Some College,Asian
+AUD_000727,45-54,Prefer not to say,NJ,East Williamstad,USA,$75k-$100k,Some College,Native American
+AUD_000728,18-24,Female,IL,New Danafort,USA,<$25k,Some College,Native American
+AUD_000729,25-34,Male,MO,Smithside,USA,$100k-$150k,Some College,White
+AUD_000730,25-34,Prefer not to say,IL,Smithhaven,USA,$100k-$150k,Doctorate,Mixed
+AUD_000731,18-24,Female,CA,San Diego,USA,$75k-$100k,Doctorate,Asian
+AUD_000732,25-34,Prefer not to say,TN,New Lisachester,USA,$100k-$150k,Some College,Other
+AUD_000733,55-64,Non-binary,MO,North Samantha,USA,$25k-$50k,Trade School,Mixed
+AUD_000734,55-64,Male,NJ,East James,USA,$25k-$50k,Master's,Asian
+AUD_000735,18-24,Female,PA,Lisaview,USA,$100k-$150k,Doctorate,Mixed
+AUD_000736,55-64,Male,AZ,Millerfurt,USA,$25k-$50k,Master's,Native American
+AUD_000737,55-64,Male,WI,Cunninghambury,USA,<$25k,Master's,Mixed
+AUD_000738,65+,Prefer not to say,PA,Gabriellaland,USA,$100k-$150k,Master's,Hispanic/Latino
+AUD_000739,25-34,Prefer not to say,TX,San Antonio,USA,$75k-$100k,Bachelor's,Native American
+AUD_000740,45-54,Female,MO,Browntown,USA,$50k-$75k,Master's,Other
+AUD_000741,35-44,Prefer not to say,GA,North Vincent,USA,$50k-$75k,Some College,White
+AUD_000742,55-64,Male,CA,Los Angeles,USA,$75k-$100k,Trade School,Black/African American
+AUD_000743,35-44,Male,NJ,New Samanthabury,USA,$25k-$50k,Master's,Mixed
+AUD_000744,35-44,Prefer not to say,MO,Port Heather,USA,$100k-$150k,Bachelor's,Native American
+AUD_000745,25-34,Prefer not to say,NC,Nelsonland,USA,$100k-$150k,Doctorate,Asian
+AUD_000746,55-64,Prefer not to say,IL,Rachelshire,USA,$50k-$75k,Bachelor's,Native American
+AUD_000747,65+,Female,VA,East Sarahmouth,USA,$150k+,High School,Mixed
+AUD_000748,65+,Female,GA,East Brendafurt,USA,<$25k,Some College,Native American
+AUD_000749,55-64,Male,WA,West Franciscobury,USA,$25k-$50k,Master's,Mixed
+AUD_000750,25-34,Prefer not to say,CA,Los Angeles,USA,$100k-$150k,Master's,White
+AUD_000751,25-34,Non-binary,FL,Tampa,USA,<$25k,Doctorate,White
+AUD_000752,55-64,Non-binary,WA,New Juliestad,USA,$150k+,Doctorate,White
+AUD_000753,45-54,Male,IL,North Samuelland,USA,$25k-$50k,Trade School,Other
+AUD_000754,25-34,Male,IN,Cassiefurt,USA,$100k-$150k,Doctorate,Native American
+AUD_000755,65+,Male,GA,Anthonyview,USA,$50k-$75k,Some College,Mixed
+AUD_000756,18-24,Non-binary,CA,San Francisco,USA,$75k-$100k,Bachelor's,Mixed
+AUD_000757,55-64,Female,WA,Reynoldsshire,USA,$100k-$150k,High School,Mixed
+AUD_000758,55-64,Non-binary,FL,Miami,USA,$150k+,Doctorate,Native American
+AUD_000759,35-44,Female,VA,Lake Charles,USA,$100k-$150k,Some College,Asian
+AUD_000760,35-44,Female,WA,Ericberg,USA,$75k-$100k,Doctorate,White
+AUD_000761,55-64,Non-binary,MD,Stewartville,USA,$50k-$75k,High School,Other
+AUD_000762,55-64,Non-binary,IN,North Sherrymouth,USA,$150k+,Master's,Asian
+AUD_000763,25-34,Non-binary,MO,Kathleenville,USA,$75k-$100k,Trade School,Asian
+AUD_000764,45-54,Male,MO,North Jacob,USA,$50k-$75k,High School,Asian
+AUD_000765,35-44,Prefer not to say,GA,Hawkinshaven,USA,$50k-$75k,Doctorate,Native American
+AUD_000766,25-34,Non-binary,CA,San Diego,USA,<$25k,Master's,Mixed
+AUD_000767,55-64,Female,NJ,Angelamouth,USA,$75k-$100k,Bachelor's,Hispanic/Latino
+AUD_000768,25-34,Female,OH,Smithchester,USA,$75k-$100k,Trade School,Black/African American
+AUD_000769,35-44,Female,GA,Maxwellside,USA,$25k-$50k,Some College,Other
+AUD_000770,25-34,Male,GA,New Adriana,USA,<$25k,High School,Mixed
+AUD_000771,55-64,Male,TN,Jacksonview,USA,$75k-$100k,Bachelor's,Native American
+AUD_000772,55-64,Non-binary,NJ,Josephberg,USA,$75k-$100k,Some College,Other
+AUD_000773,45-54,Female,IN,East Ryanchester,USA,$100k-$150k,Some College,White
+AUD_000774,45-54,Male,IN,Toddland,USA,$100k-$150k,Bachelor's,Asian
+AUD_000775,18-24,Prefer not to say,IL,Johnathanbury,USA,$50k-$75k,Trade School,White
+AUD_000776,45-54,Male,CA,San Francisco,USA,$50k-$75k,Bachelor's,Native American
+AUD_000777,55-64,Non-binary,NC,Rodriguezport,USA,$25k-$50k,Bachelor's,Asian
+AUD_000778,35-44,Female,WI,South Martinfurt,USA,$75k-$100k,Master's,Black/African American
+AUD_000779,35-44,Prefer not to say,AZ,Scottchester,USA,$50k-$75k,Master's,Black/African American
+AUD_000780,55-64,Female,MO,West Malik,USA,<$25k,Trade School,Hispanic/Latino
+AUD_000781,45-54,Female,GA,South Leon,USA,$25k-$50k,Trade School,Black/African American
+AUD_000782,25-34,Prefer not to say,TN,Novakport,USA,$75k-$100k,Some College,Other
+AUD_000783,45-54,Non-binary,IN,Faulknerbury,USA,$50k-$75k,Doctorate,Other
+AUD_000784,45-54,Male,MO,Nicholasfurt,USA,$150k+,Some College,White
+AUD_000785,45-54,Male,OH,Danielshire,USA,$75k-$100k,Trade School,Hispanic/Latino
+AUD_000786,35-44,Non-binary,NC,New Wendy,USA,$50k-$75k,High School,Asian
+AUD_000787,65+,Female,NY,Buffalo,USA,$100k-$150k,Doctorate,Mixed
+AUD_000788,35-44,Non-binary,MD,Lake Stevenborough,USA,$50k-$75k,Trade School,Native American
+AUD_000789,18-24,Prefer not to say,TN,Salinasland,USA,$100k-$150k,Bachelor's,Asian
+AUD_000790,65+,Non-binary,PA,Chambersberg,USA,$75k-$100k,Trade School,Native American
+AUD_000791,18-24,Male,MO,Johnberg,USA,$25k-$50k,Bachelor's,Black/African American
+AUD_000792,65+,Non-binary,NJ,Mccormickland,USA,$150k+,Bachelor's,Native American
+AUD_000793,45-54,Non-binary,WA,Ewingfort,USA,$150k+,Doctorate,Native American
+AUD_000794,25-34,Female,MA,Fergusonchester,USA,<$25k,Some College,Mixed
+AUD_000795,65+,Male,GA,Port Tanyaside,USA,$25k-$50k,Some College,Asian
+AUD_000796,18-24,Prefer not to say,NY,New York City,USA,$100k-$150k,High School,White
+AUD_000797,18-24,Non-binary,WA,Lake Cheyenne,USA,$100k-$150k,Some College,White
+AUD_000798,25-34,Female,WA,Rasmussenmouth,USA,$150k+,Bachelor's,Asian
+AUD_000799,55-64,Female,PA,Rodriguezville,USA,<$25k,High School,Mixed
+AUD_000800,45-54,Prefer not to say,VA,Jeffreyhaven,USA,$100k-$150k,Bachelor's,Native American
+AUD_000801,65+,Female,MA,South Neil,USA,$100k-$150k,Doctorate,Asian
+AUD_000802,55-64,Non-binary,MO,Bartonshire,USA,$50k-$75k,Master's,Native American
+AUD_000803,45-54,Non-binary,GA,West Whitney,USA,$50k-$75k,Master's,Hispanic/Latino
+AUD_000804,18-24,Male,PA,Garciachester,USA,$100k-$150k,Some College,Hispanic/Latino
+AUD_000805,55-64,Male,MI,North Marieberg,USA,$150k+,Master's,Other
+AUD_000806,18-24,Prefer not to say,TN,Larrymouth,USA,$50k-$75k,Doctorate,Black/African American
+AUD_000807,25-34,Prefer not to say,CA,San Diego,USA,$100k-$150k,Master's,Asian
+AUD_000808,65+,Prefer not to say,GA,Davismouth,USA,$75k-$100k,Some College,Hispanic/Latino
+AUD_000809,65+,Female,FL,Jacksonville,USA,$100k-$150k,Doctorate,Other
+AUD_000810,65+,Non-binary,NC,North Melindaville,USA,$75k-$100k,Some College,Other
+AUD_000811,25-34,Non-binary,FL,Orlando,USA,<$25k,Trade School,Asian
+AUD_000812,35-44,Prefer not to say,WI,New Ethan,USA,$25k-$50k,Bachelor's,White
+AUD_000813,55-64,Male,PA,Mullenbury,USA,$25k-$50k,High School,Hispanic/Latino
+AUD_000814,65+,Prefer not to say,NC,Sotoburgh,USA,$150k+,High School,Black/African American
+AUD_000815,18-24,Prefer not to say,FL,Orlando,USA,$25k-$50k,Bachelor's,Asian
+AUD_000816,35-44,Prefer not to say,MI,Vargasfurt,USA,$150k+,High School,Hispanic/Latino
+AUD_000817,18-24,Non-binary,FL,Orlando,USA,$75k-$100k,High School,Native American
+AUD_000818,25-34,Non-binary,TN,New Cristianside,USA,$75k-$100k,High School,White
+AUD_000819,45-54,Female,GA,West Mark,USA,$150k+,High School,Black/African American
+AUD_000820,55-64,Female,MA,Wilsonfort,USA,$75k-$100k,Master's,Mixed
+AUD_000821,25-34,Male,MI,Candicefurt,USA,$150k+,Doctorate,Native American
+AUD_000822,45-54,Non-binary,NY,Buffalo,USA,$25k-$50k,Bachelor's,White
+AUD_000823,25-34,Prefer not to say,OH,Port Emily,USA,$50k-$75k,High School,Black/African American
+AUD_000824,45-54,Female,NC,Samanthashire,USA,<$25k,High School,Native American
+AUD_000825,35-44,Male,TN,Lake Dennisville,USA,$25k-$50k,Some College,Asian
+AUD_000826,65+,Male,FL,Tampa,USA,<$25k,Bachelor's,Mixed
+AUD_000827,25-34,Prefer not to say,PA,Heatherhaven,USA,$25k-$50k,Bachelor's,Native American
+AUD_000828,65+,Female,VA,Barnesberg,USA,<$25k,Trade School,Asian
+AUD_000829,35-44,Male,VA,Hendersonfort,USA,$75k-$100k,Trade School,Asian
+AUD_000830,55-64,Prefer not to say,MD,New Garrett,USA,$25k-$50k,Doctorate,Black/African American
+AUD_000831,35-44,Prefer not to say,MD,Donaldmouth,USA,$50k-$75k,Doctorate,Other
+AUD_000832,18-24,Female,MD,Harveystad,USA,$75k-$100k,Bachelor's,Other
+AUD_000833,45-54,Male,NC,South Derrickfurt,USA,$150k+,Doctorate,Asian
+AUD_000834,55-64,Non-binary,IL,Ortizfort,USA,$100k-$150k,Some College,Hispanic/Latino
+AUD_000835,25-34,Prefer not to say,FL,Jacksonville,USA,$100k-$150k,Some College,Native American
+AUD_000836,45-54,Non-binary,MI,Jacksonshire,USA,<$25k,High School,Native American
+AUD_000837,25-34,Female,FL,Miami,USA,<$25k,Some College,White
+AUD_000838,18-24,Male,TN,West Jeffreyport,USA,$100k-$150k,Trade School,Other
+AUD_000839,55-64,Non-binary,WA,Port Stephen,USA,<$25k,Bachelor's,Black/African American
+AUD_000840,18-24,Female,WI,Dunnville,USA,$150k+,Master's,Other
+AUD_000841,65+,Male,FL,Jacksonville,USA,$50k-$75k,Doctorate,Mixed
+AUD_000842,65+,Male,AZ,Port Jenniferside,USA,$100k-$150k,Bachelor's,Native American
+AUD_000843,35-44,Male,TX,Houston,USA,$25k-$50k,Doctorate,White
+AUD_000844,55-64,Prefer not to say,NY,Albany,USA,$25k-$50k,Some College,Native American
+AUD_000845,55-64,Prefer not to say,GA,South Joseland,USA,$150k+,High School,Other
+AUD_000846,65+,Prefer not to say,MO,Grimesville,USA,$150k+,Trade School,Asian
+AUD_000847,25-34,Prefer not to say,NY,Albany,USA,$100k-$150k,Bachelor's,Mixed
+AUD_000848,35-44,Non-binary,IL,Michellechester,USA,$100k-$150k,Bachelor's,Other
+AUD_000849,65+,Prefer not to say,VA,New Donald,USA,$150k+,Bachelor's,Native American
+AUD_000850,45-54,Non-binary,GA,Port Jamie,USA,$50k-$75k,Master's,Asian
+AUD_000851,65+,Male,WA,New Michaelview,USA,$50k-$75k,Doctorate,White
+AUD_000852,35-44,Male,IN,West Tiffany,USA,$50k-$75k,Some College,Black/African American
+AUD_000853,65+,Non-binary,NJ,Keithview,USA,$100k-$150k,Doctorate,Native American
+AUD_000854,18-24,Male,MO,East Sydneychester,USA,$75k-$100k,Bachelor's,Black/African American
+AUD_000855,35-44,Female,PA,West Michelleberg,USA,$25k-$50k,Bachelor's,Other
+AUD_000856,55-64,Prefer not to say,MI,East Dustin,USA,$100k-$150k,Some College,Mixed
+AUD_000857,45-54,Female,FL,Tampa,USA,$75k-$100k,Trade School,Mixed
+AUD_000858,55-64,Non-binary,MO,Thomasview,USA,<$25k,Trade School,Other
+AUD_000859,18-24,Male,MO,Brooksland,USA,$50k-$75k,Bachelor's,Other
+AUD_000860,18-24,Female,AZ,South Zacharyview,USA,$150k+,Trade School,Other
+AUD_000861,65+,Prefer not to say,WI,Shawnfort,USA,<$25k,Bachelor's,Native American
+AUD_000862,55-64,Female,TX,Austin,USA,$50k-$75k,Doctorate,Mixed
+AUD_000863,18-24,Prefer not to say,GA,Reidstad,USA,$75k-$100k,Doctorate,Native American
+AUD_000864,25-34,Prefer not to say,IN,Port Amandaborough,USA,$50k-$75k,Master's,Black/African American
+AUD_000865,18-24,Prefer not to say,PA,Summersfort,USA,$100k-$150k,Trade School,White
+AUD_000866,35-44,Male,MD,Marcusport,USA,$75k-$100k,Doctorate,Asian
+AUD_000867,45-54,Female,PA,Amyberg,USA,$75k-$100k,Master's,Mixed
+AUD_000868,55-64,Female,MO,Kramerton,USA,$25k-$50k,High School,Hispanic/Latino
+AUD_000869,65+,Male,AZ,North Conniemouth,USA,<$25k,Trade School,Asian
+AUD_000870,35-44,Female,AZ,North Sarahburgh,USA,$50k-$75k,Bachelor's,Native American
+AUD_000871,25-34,Non-binary,CA,San Diego,USA,$100k-$150k,Master's,Native American
+AUD_000872,18-24,Female,PA,Lake Regina,USA,$25k-$50k,Trade School,Hispanic/Latino
+AUD_000873,18-24,Male,PA,Erikview,USA,$25k-$50k,Doctorate,Black/African American
+AUD_000874,35-44,Male,MI,Lake Michaelland,USA,$50k-$75k,Master's,Asian
+AUD_000875,25-34,Female,CA,San Diego,USA,$25k-$50k,Doctorate,Native American
+AUD_000876,55-64,Female,NC,South Conniebury,USA,$150k+,Trade School,Mixed
+AUD_000877,55-64,Male,CA,Sacramento,USA,$50k-$75k,Some College,White
+AUD_000878,65+,Non-binary,MI,East Thomasberg,USA,<$25k,Master's,Mixed
+AUD_000879,45-54,Non-binary,CA,Los Angeles,USA,$150k+,Trade School,Hispanic/Latino
+AUD_000880,35-44,Prefer not to say,NY,New York City,USA,$25k-$50k,Master's,Native American
+AUD_000881,45-54,Male,NY,Buffalo,USA,$25k-$50k,Some College,Native American
+AUD_000882,18-24,Female,MA,East Patrickville,USA,$100k-$150k,Bachelor's,Hispanic/Latino
+AUD_000883,65+,Female,TN,West Michaelport,USA,<$25k,Bachelor's,Mixed
+AUD_000884,65+,Non-binary,VA,South Kiara,USA,$25k-$50k,Doctorate,Hispanic/Latino
+AUD_000885,45-54,Male,TX,Austin,USA,$100k-$150k,Bachelor's,Black/African American
+AUD_000886,45-54,Female,PA,North Alyssa,USA,<$25k,Trade School,Asian
+AUD_000887,45-54,Female,IN,New Debramouth,USA,$100k-$150k,Some College,Asian
+AUD_000888,45-54,Female,MI,Jenniferberg,USA,$25k-$50k,Trade School,Black/African American
+AUD_000889,25-34,Non-binary,MO,Jensenmouth,USA,$150k+,Trade School,Native American
+AUD_000890,25-34,Female,PA,North Peggy,USA,$50k-$75k,High School,Native American
+AUD_000891,25-34,Non-binary,MD,Port David,USA,$25k-$50k,Trade School,White
+AUD_000892,45-54,Non-binary,NJ,Bellchester,USA,$75k-$100k,Trade School,Other
+AUD_000893,25-34,Male,NC,Kyliebury,USA,$25k-$50k,Some College,White
+AUD_000894,55-64,Female,WI,Deannabury,USA,$100k-$150k,Some College,Black/African American
+AUD_000895,18-24,Prefer not to say,CA,San Diego,USA,$25k-$50k,Doctorate,Other
+AUD_000896,65+,Non-binary,WI,Jamiehaven,USA,$25k-$50k,Master's,Asian
+AUD_000897,25-34,Female,TN,Lake Peter,USA,$25k-$50k,High School,Asian
+AUD_000898,45-54,Female,CA,San Diego,USA,$150k+,Trade School,Black/African American
+AUD_000899,25-34,Prefer not to say,OH,Cruzbury,USA,$100k-$150k,Master's,Mixed
+AUD_000900,25-34,Prefer not to say,NJ,Littleland,USA,$75k-$100k,High School,Native American
+AUD_000901,45-54,Male,WA,West Sarahberg,USA,$100k-$150k,High School,Asian
+AUD_000902,25-34,Prefer not to say,MA,Valenciashire,USA,$150k+,High School,Native American
+AUD_000903,25-34,Non-binary,WA,Diazburgh,USA,$75k-$100k,Master's,Hispanic/Latino
+AUD_000904,25-34,Prefer not to say,MI,Bestland,USA,$50k-$75k,Doctorate,White
+AUD_000905,45-54,Prefer not to say,IN,New Carlosview,USA,<$25k,Trade School,Native American
+AUD_000906,55-64,Female,NY,Albany,USA,$75k-$100k,Master's,Hispanic/Latino
+AUD_000907,25-34,Prefer not to say,MA,Hunterhaven,USA,$100k-$150k,Trade School,Black/African American
+AUD_000908,35-44,Non-binary,MA,Hendersonfurt,USA,$150k+,Trade School,Mixed
+AUD_000909,18-24,Male,IL,Lake Amandaberg,USA,$150k+,Master's,Mixed
+AUD_000910,55-64,Prefer not to say,VA,Christopherland,USA,$150k+,Doctorate,Native American
+AUD_000911,55-64,Prefer not to say,IL,Port Eric,USA,<$25k,Some College,Hispanic/Latino
+AUD_000912,25-34,Female,MO,Peterland,USA,$25k-$50k,Trade School,White
+AUD_000913,35-44,Prefer not to say,AZ,Hollybury,USA,$50k-$75k,Trade School,Black/African American
+AUD_000914,25-34,Male,NY,Albany,USA,$100k-$150k,Bachelor's,White
+AUD_000915,45-54,Male,MA,South Cherylton,USA,$100k-$150k,Master's,Black/African American
+AUD_000916,45-54,Prefer not to say,OH,Elizabethburgh,USA,$75k-$100k,High School,Native American
+AUD_000917,25-34,Non-binary,WI,North Jeantown,USA,$100k-$150k,Trade School,Native American
+AUD_000918,25-34,Female,OH,South Stephanie,USA,<$25k,Trade School,Hispanic/Latino
+AUD_000919,18-24,Non-binary,TX,Dallas,USA,$50k-$75k,High School,White
+AUD_000920,25-34,Female,NY,Rochester,USA,$150k+,Bachelor's,Native American
+AUD_000921,45-54,Non-binary,WI,West Lindsayview,USA,<$25k,High School,Other
+AUD_000922,35-44,Prefer not to say,MI,West Jennifershire,USA,<$25k,Master's,Other
+AUD_000923,35-44,Prefer not to say,MD,South Spencerstad,USA,$25k-$50k,High School,Mixed
+AUD_000924,55-64,Prefer not to say,NC,South Micheleburgh,USA,$100k-$150k,Some College,Mixed
+AUD_000925,18-24,Male,OH,Ericville,USA,$75k-$100k,Trade School,Mixed
+AUD_000926,45-54,Non-binary,WI,East Joycetown,USA,$50k-$75k,Doctorate,Native American
+AUD_000927,25-34,Prefer not to say,WI,Port Michellebury,USA,$100k-$150k,Trade School,Mixed
+AUD_000928,25-34,Female,TN,South Michaelberg,USA,$150k+,Bachelor's,Black/African American
+AUD_000929,18-24,Prefer not to say,CA,Los Angeles,USA,$150k+,High School,Mixed
+AUD_000930,45-54,Male,OH,Walkerbury,USA,$50k-$75k,Bachelor's,Native American
+AUD_000931,65+,Female,OH,Moonmouth,USA,$150k+,Bachelor's,Hispanic/Latino
+AUD_000932,35-44,Non-binary,FL,Tampa,USA,<$25k,High School,Mixed
+AUD_000933,45-54,Male,NJ,Davidton,USA,$25k-$50k,Some College,Hispanic/Latino
+AUD_000934,45-54,Male,NJ,East Linda,USA,$150k+,Some College,Asian
+AUD_000935,55-64,Non-binary,PA,South Caseymouth,USA,$75k-$100k,Master's,Mixed
+AUD_000936,55-64,Non-binary,TX,Austin,USA,$100k-$150k,Doctorate,White
+AUD_000937,35-44,Male,OH,Christophermouth,USA,$25k-$50k,Bachelor's,Other
+AUD_000938,45-54,Female,CA,San Diego,USA,$100k-$150k,Doctorate,Asian
+AUD_000939,35-44,Non-binary,IL,Jodibury,USA,$150k+,High School,Hispanic/Latino
+AUD_000940,45-54,Female,AZ,Richardsonfort,USA,$50k-$75k,Master's,Other
+AUD_000941,55-64,Non-binary,MI,Lake Rachel,USA,$25k-$50k,High School,Hispanic/Latino
+AUD_000942,18-24,Prefer not to say,TX,Dallas,USA,$100k-$150k,High School,Other
+AUD_000943,25-34,Non-binary,TN,Johnsonside,USA,$75k-$100k,Trade School,Other
+AUD_000944,35-44,Female,IN,Cynthiatown,USA,<$25k,Doctorate,Mixed
+AUD_000945,65+,Male,PA,Aaronfurt,USA,$75k-$100k,Master's,Mixed
+AUD_000946,18-24,Non-binary,IN,Daltonhaven,USA,<$25k,Trade School,Other
+AUD_000947,35-44,Prefer not to say,WI,South Travis,USA,<$25k,High School,Native American
+AUD_000948,55-64,Non-binary,MI,East Jenniferland,USA,$150k+,Some College,Hispanic/Latino
+AUD_000949,35-44,Non-binary,OH,East Phyllishaven,USA,$100k-$150k,Bachelor's,Other
+AUD_000950,35-44,Female,MA,Haynesstad,USA,$25k-$50k,Bachelor's,White
+AUD_000951,25-34,Non-binary,CA,Los Angeles,USA,$100k-$150k,Bachelor's,Hispanic/Latino
+AUD_000952,55-64,Female,PA,New Dennisfurt,USA,$25k-$50k,High School,Hispanic/Latino
+AUD_000953,55-64,Prefer not to say,WI,New Ashleychester,USA,<$25k,Some College,White
+AUD_000954,18-24,Prefer not to say,TN,East Kelly,USA,<$25k,High School,Asian
+AUD_000955,65+,Prefer not to say,WA,Sarafurt,USA,$100k-$150k,Bachelor's,Hispanic/Latino
+AUD_000956,65+,Male,NJ,Louisview,USA,$75k-$100k,Doctorate,Black/African American
+AUD_000957,18-24,Prefer not to say,FL,Jacksonville,USA,$50k-$75k,Trade School,Mixed
+AUD_000958,25-34,Female,MA,Port Kayla,USA,$25k-$50k,Doctorate,Hispanic/Latino
+AUD_000959,25-34,Non-binary,VA,East Danielmouth,USA,$50k-$75k,Master's,Asian
+AUD_000960,45-54,Male,CA,Los Angeles,USA,$50k-$75k,Master's,Asian
+AUD_000961,35-44,Female,IL,Tamiborough,USA,$100k-$150k,High School,Asian
+AUD_000962,55-64,Male,NY,Buffalo,USA,$50k-$75k,Doctorate,Asian
+AUD_000963,25-34,Female,WA,North Ericport,USA,$100k-$150k,Some College,Asian
+AUD_000964,35-44,Female,WA,East Marymouth,USA,$150k+,Doctorate,Asian
+AUD_000965,55-64,Female,AZ,North Jennifer,USA,$25k-$50k,Trade School,Mixed
+AUD_000966,18-24,Prefer not to say,FL,Jacksonville,USA,$50k-$75k,Doctorate,White
+AUD_000967,35-44,Prefer not to say,MA,Jorgeburgh,USA,<$25k,Doctorate,White
+AUD_000968,35-44,Prefer not to say,WI,South Melissaside,USA,$150k+,Trade School,White
+AUD_000969,25-34,Male,FL,Orlando,USA,$25k-$50k,Trade School,Black/African American
+AUD_000970,45-54,Prefer not to say,MA,North Alexander,USA,$25k-$50k,Some College,Mixed
+AUD_000971,55-64,Non-binary,NJ,East James,USA,$75k-$100k,Trade School,Hispanic/Latino
+AUD_000972,55-64,Prefer not to say,FL,Miami,USA,$25k-$50k,Bachelor's,White
+AUD_000973,18-24,Non-binary,VA,Samanthaland,USA,<$25k,Bachelor's,Other
+AUD_000974,45-54,Prefer not to say,CA,San Francisco,USA,$150k+,Bachelor's,Mixed
+AUD_000975,45-54,Prefer not to say,WA,North Rebecca,USA,$100k-$150k,Some College,Mixed
+AUD_000976,25-34,Female,IL,Davidmouth,USA,$100k-$150k,Master's,Other
+AUD_000977,25-34,Non-binary,VA,East Sandrachester,USA,$150k+,Some College,Black/African American
+AUD_000978,65+,Male,CA,Los Angeles,USA,$25k-$50k,Trade School,Asian
+AUD_000979,18-24,Female,AZ,Thompsonborough,USA,$150k+,Master's,Other
+AUD_000980,55-64,Female,MA,West Joshua,USA,$75k-$100k,Doctorate,Asian
+AUD_000981,45-54,Non-binary,MD,North Christina,USA,$25k-$50k,Some College,Asian
+AUD_000982,55-64,Prefer not to say,WI,Lake Kenneth,USA,$150k+,Some College,Mixed
+AUD_000983,45-54,Non-binary,IN,Andradefort,USA,<$25k,High School,Native American
+AUD_000984,18-24,Prefer not to say,TN,North Joshuaberg,USA,$150k+,High School,Black/African American
+AUD_000985,45-54,Male,IN,Gonzalezhaven,USA,$100k-$150k,Doctorate,White
+AUD_000986,65+,Male,GA,Lake Virginia,USA,$150k+,Trade School,Native American
+AUD_000987,55-64,Male,MO,South Kimberlystad,USA,$50k-$75k,Doctorate,Other
+AUD_000988,45-54,Prefer not to say,CA,Sacramento,USA,$100k-$150k,Trade School,Hispanic/Latino
+AUD_000989,35-44,Non-binary,AZ,Robertahaven,USA,$25k-$50k,High School,Mixed
+AUD_000990,65+,Non-binary,WI,Paulburgh,USA,<$25k,Trade School,Asian
+AUD_000991,55-64,Male,MO,West Carlatown,USA,$150k+,Bachelor's,Other
+AUD_000992,35-44,Prefer not to say,WI,Brianfort,USA,<$25k,Some College,Native American
+AUD_000993,35-44,Female,FL,Tampa,USA,$100k-$150k,Bachelor's,Hispanic/Latino
+AUD_000994,65+,Male,NC,North John,USA,$100k-$150k,Some College,Native American
+AUD_000995,35-44,Female,PA,West Amanda,USA,$50k-$75k,Trade School,Black/African American
+AUD_000996,55-64,Male,TN,Port Wendybury,USA,$50k-$75k,High School,Black/African American
+AUD_000997,45-54,Prefer not to say,WI,Kellyburgh,USA,$75k-$100k,Some College,Mixed
+AUD_000998,25-34,Non-binary,MA,East Brittany,USA,<$25k,Trade School,Hispanic/Latino
+AUD_000999,25-34,Prefer not to say,NY,New York City,USA,$75k-$100k,Master's,Hispanic/Latino
+AUD_001000,45-54,Prefer not to say,TN,Staceyshire,USA,$75k-$100k,Bachelor's,Black/African American
+AUD_001001,18-24,Non-binary,IN,New Stacy,USA,$75k-$100k,Master's,Mixed
+AUD_001002,18-24,Non-binary,NJ,Weaverburgh,USA,$75k-$100k,Doctorate,Mixed
+AUD_001003,35-44,Non-binary,NC,Johnsonton,USA,<$25k,Bachelor's,Mixed
+AUD_001004,45-54,Female,MO,New Jeffery,USA,$150k+,Trade School,Native American
+AUD_001005,65+,Female,OH,Smithborough,USA,$50k-$75k,Doctorate,White
+AUD_001006,18-24,Prefer not to say,CA,Los Angeles,USA,<$25k,Doctorate,White
+AUD_001007,25-34,Non-binary,MA,Brianberg,USA,$50k-$75k,Some College,White
+AUD_001008,18-24,Female,CA,Los Angeles,USA,$100k-$150k,Trade School,White
+AUD_001009,55-64,Female,NY,New York City,USA,$75k-$100k,Trade School,Other
+AUD_001010,18-24,Female,MO,Willismouth,USA,$50k-$75k,Bachelor's,Asian
+AUD_001011,35-44,Prefer not to say,FL,Jacksonville,USA,$150k+,Trade School,Other
+AUD_001012,25-34,Male,NJ,Connerfort,USA,$50k-$75k,High School,Asian
+AUD_001013,18-24,Non-binary,WA,Grantside,USA,$50k-$75k,Some College,Asian
+AUD_001014,25-34,Prefer not to say,FL,Jacksonville,USA,$25k-$50k,Trade School,Asian
+AUD_001015,55-64,Prefer not to say,NY,Albany,USA,$25k-$50k,Doctorate,Mixed
+AUD_001016,65+,Non-binary,NY,Rochester,USA,<$25k,High School,White
+AUD_001017,45-54,Male,FL,Tampa,USA,$75k-$100k,Some College,Mixed
+AUD_001018,65+,Prefer not to say,CA,Los Angeles,USA,$50k-$75k,Some College,Mixed
+AUD_001019,55-64,Male,NJ,South Donaldland,USA,$100k-$150k,Trade School,Other
+AUD_001020,45-54,Prefer not to say,TN,West Toni,USA,$150k+,High School,Native American
+AUD_001021,45-54,Prefer not to say,GA,Lake Nicole,USA,<$25k,Doctorate,Native American
+AUD_001022,65+,Non-binary,VA,Port Jennamouth,USA,$75k-$100k,High School,Mixed
+AUD_001023,55-64,Non-binary,FL,Tampa,USA,<$25k,Master's,Other
+AUD_001024,25-34,Male,MI,Lake Carlos,USA,$75k-$100k,Trade School,Black/African American
+AUD_001025,18-24,Non-binary,MI,Kristintown,USA,$75k-$100k,High School,Mixed
+AUD_001026,25-34,Male,MA,South Samuelchester,USA,$25k-$50k,High School,Mixed
+AUD_001027,45-54,Prefer not to say,MO,South Trevor,USA,<$25k,Doctorate,Mixed
+AUD_001028,55-64,Prefer not to say,MI,Bellfurt,USA,<$25k,High School,Hispanic/Latino
+AUD_001029,65+,Male,TX,Austin,USA,$75k-$100k,High School,Black/African American
+AUD_001030,65+,Female,IN,East Shannon,USA,$150k+,Doctorate,Black/African American
+AUD_001031,65+,Female,FL,Miami,USA,$75k-$100k,Trade School,White
+AUD_001032,25-34,Female,TN,North Matthewfurt,USA,<$25k,Some College,Mixed
+AUD_001033,18-24,Prefer not to say,TX,Austin,USA,$100k-$150k,Some College,Other
+AUD_001034,18-24,Male,MO,West Brookefort,USA,$75k-$100k,Doctorate,Other
+AUD_001035,18-24,Female,WI,South Sherriburgh,USA,$75k-$100k,Bachelor's,Other
+AUD_001036,18-24,Female,WA,Mooreville,USA,$50k-$75k,Some College,Other
+AUD_001037,35-44,Male,TX,Dallas,USA,<$25k,Bachelor's,Black/African American
+AUD_001038,65+,Non-binary,AZ,Terryside,USA,$100k-$150k,Some College,Asian
+AUD_001039,25-34,Male,GA,Donnaport,USA,$150k+,Doctorate,Asian
+AUD_001040,45-54,Male,IL,North Brandon,USA,<$25k,High School,Black/African American
+AUD_001041,45-54,Prefer not to say,FL,Tampa,USA,$150k+,Some College,Black/African American
+AUD_001042,55-64,Prefer not to say,PA,South Christopherfort,USA,$75k-$100k,Some College,Black/African American
+AUD_001043,55-64,Female,WI,North Anthony,USA,$150k+,Master's,Native American
+AUD_001044,35-44,Prefer not to say,FL,Tampa,USA,<$25k,Doctorate,Black/African American
+AUD_001045,55-64,Male,OH,South Meganport,USA,$100k-$150k,Bachelor's,Other
+AUD_001046,45-54,Female,MD,Ruizview,USA,$50k-$75k,High School,Black/African American
+AUD_001047,65+,Prefer not to say,NY,Albany,USA,$75k-$100k,Some College,Black/African American
+AUD_001048,65+,Non-binary,TX,Houston,USA,$50k-$75k,Some College,Asian
+AUD_001049,55-64,Prefer not to say,NC,South Bradley,USA,<$25k,High School,Mixed
+AUD_001050,25-34,Male,TX,Dallas,USA,$75k-$100k,Doctorate,White
+AUD_001051,65+,Prefer not to say,FL,Orlando,USA,$100k-$150k,Doctorate,Hispanic/Latino
+AUD_001052,65+,Non-binary,AZ,North Elizabethside,USA,$25k-$50k,High School,Hispanic/Latino
+AUD_001053,25-34,Prefer not to say,GA,Arellanoshire,USA,$25k-$50k,Master's,Black/African American
+AUD_001054,55-64,Prefer not to say,FL,Jacksonville,USA,<$25k,Master's,Black/African American
+AUD_001055,25-34,Prefer not to say,OH,Cardenaschester,USA,$50k-$75k,Some College,Asian
+AUD_001056,35-44,Female,OH,Armstrongbury,USA,$50k-$75k,Some College,White
+AUD_001057,35-44,Female,MO,Evansfurt,USA,<$25k,Master's,Asian
+AUD_001058,35-44,Female,AZ,New Ashleyhaven,USA,$50k-$75k,Doctorate,Black/African American
+AUD_001059,55-64,Female,WI,North Stacy,USA,<$25k,Master's,Other
+AUD_001060,25-34,Prefer not to say,IN,Thompsonburgh,USA,$75k-$100k,Bachelor's,White
+AUD_001061,25-34,Non-binary,AZ,Port James,USA,$75k-$100k,Doctorate,Black/African American
+AUD_001062,55-64,Male,MO,South Christianchester,USA,$75k-$100k,High School,White
+AUD_001063,45-54,Prefer not to say,TN,Port Courtney,USA,$75k-$100k,Trade School,Other
+AUD_001064,45-54,Female,NY,Rochester,USA,<$25k,Doctorate,Other
+AUD_001065,25-34,Female,CA,Sacramento,USA,$50k-$75k,Bachelor's,Black/African American
+AUD_001066,45-54,Non-binary,FL,Miami,USA,$25k-$50k,Trade School,Asian
+AUD_001067,45-54,Prefer not to say,MO,Starktown,USA,$25k-$50k,Trade School,Asian
+AUD_001068,65+,Prefer not to say,IL,Rodriguezberg,USA,$150k+,Trade School,White
+AUD_001069,65+,Non-binary,FL,Jacksonville,USA,$100k-$150k,High School,Hispanic/Latino
+AUD_001070,65+,Female,AZ,North Annaville,USA,$150k+,High School,Native American
+AUD_001071,55-64,Non-binary,NJ,Mikaylastad,USA,<$25k,High School,Asian
+AUD_001072,55-64,Male,VA,Bakerfort,USA,$50k-$75k,Bachelor's,Black/African American
+AUD_001073,55-64,Female,MD,Johnsonview,USA,$25k-$50k,Bachelor's,Black/African American
+AUD_001074,65+,Prefer not to say,MD,Thomasfurt,USA,$150k+,Doctorate,Other
+AUD_001075,35-44,Non-binary,OH,South Pamelamouth,USA,$50k-$75k,Doctorate,Mixed
+AUD_001076,18-24,Male,AZ,North Julie,USA,$50k-$75k,Bachelor's,Asian
+AUD_001077,45-54,Non-binary,TN,Pennytown,USA,$75k-$100k,Doctorate,Hispanic/Latino
+AUD_001078,45-54,Male,FL,Orlando,USA,<$25k,Master's,Black/African American
+AUD_001079,18-24,Female,MI,Juanfort,USA,$50k-$75k,High School,Mixed
+AUD_001080,25-34,Female,PA,Port Jeremyport,USA,$100k-$150k,Trade School,White
+AUD_001081,65+,Female,MI,Schroedermouth,USA,$75k-$100k,Bachelor's,Asian
+AUD_001082,35-44,Female,MA,Jessicaland,USA,<$25k,High School,Other
+AUD_001083,45-54,Non-binary,GA,South Jason,USA,$150k+,Trade School,Other
+AUD_001084,55-64,Prefer not to say,NJ,Figueroahaven,USA,$75k-$100k,Bachelor's,Native American
+AUD_001085,25-34,Non-binary,PA,Lorihaven,USA,$25k-$50k,Master's,Hispanic/Latino
+AUD_001086,25-34,Non-binary,MI,North Larry,USA,$50k-$75k,Master's,Black/African American
+AUD_001087,65+,Non-binary,WI,Taylorhaven,USA,$25k-$50k,Some College,Other
+AUD_001088,25-34,Male,PA,East Jamesborough,USA,<$25k,Bachelor's,Native American
+AUD_001089,35-44,Non-binary,PA,East Antonioton,USA,$25k-$50k,Some College,Native American
+AUD_001090,35-44,Female,TX,Austin,USA,$50k-$75k,Master's,Native American
+AUD_001091,18-24,Male,IL,Madisonhaven,USA,$75k-$100k,Master's,Other
+AUD_001092,35-44,Female,PA,Reidville,USA,<$25k,Trade School,Native American
+AUD_001093,65+,Non-binary,IN,East Nathanmouth,USA,$75k-$100k,Bachelor's,Other
+AUD_001094,55-64,Prefer not to say,MO,Port Thomas,USA,$50k-$75k,Trade School,White
+AUD_001095,25-34,Male,TN,Maxview,USA,$50k-$75k,High School,Asian
+AUD_001096,45-54,Non-binary,WI,West Anthonyton,USA,<$25k,Bachelor's,White
+AUD_001097,55-64,Female,WI,Port Ashley,USA,$50k-$75k,Some College,White
+AUD_001098,65+,Male,FL,Jacksonville,USA,$100k-$150k,Master's,Black/African American
+AUD_001099,55-64,Male,TN,Lake Jamie,USA,$150k+,Bachelor's,Asian
+AUD_001100,35-44,Prefer not to say,PA,Palmertown,USA,$50k-$75k,High School,Hispanic/Latino
+AUD_001101,35-44,Prefer not to say,VA,Buckburgh,USA,$100k-$150k,High School,Black/African American
+AUD_001102,45-54,Non-binary,MA,East Johnnyport,USA,$25k-$50k,Trade School,Asian
+AUD_001103,55-64,Male,AZ,Rodneyfurt,USA,$25k-$50k,Some College,Hispanic/Latino
+AUD_001104,18-24,Prefer not to say,TN,Stephenborough,USA,<$25k,High School,Asian
+AUD_001105,25-34,Prefer not to say,NC,Turnerhaven,USA,$150k+,Doctorate,Other
+AUD_001106,25-34,Prefer not to say,PA,Silvatown,USA,$50k-$75k,Doctorate,Asian
+AUD_001107,55-64,Non-binary,TX,Austin,USA,$75k-$100k,Doctorate,Mixed
+AUD_001108,18-24,Male,MA,Gabriellefort,USA,$25k-$50k,Bachelor's,Hispanic/Latino
+AUD_001109,65+,Non-binary,TN,West Vanessamouth,USA,$75k-$100k,Some College,Asian
+AUD_001110,18-24,Non-binary,GA,Joseport,USA,$75k-$100k,High School,Native American
+AUD_001111,55-64,Prefer not to say,VA,East Zachary,USA,$50k-$75k,Trade School,Mixed
+AUD_001112,35-44,Male,TN,North Linda,USA,$50k-$75k,Some College,Native American
+AUD_001113,35-44,Prefer not to say,TX,Dallas,USA,$150k+,Some College,Hispanic/Latino
+AUD_001114,35-44,Non-binary,IL,Lake Tylerport,USA,$75k-$100k,Trade School,Hispanic/Latino
+AUD_001115,35-44,Male,TX,Austin,USA,$100k-$150k,Some College,Other
+AUD_001116,55-64,Female,IL,Doyleshire,USA,$100k-$150k,Bachelor's,Other
+AUD_001117,35-44,Non-binary,NJ,West Jessica,USA,<$25k,Doctorate,Native American
+AUD_001118,18-24,Female,VA,Lake Amanda,USA,$100k-$150k,Bachelor's,Hispanic/Latino
+AUD_001119,35-44,Female,TN,Knoxstad,USA,<$25k,Some College,Black/African American
+AUD_001120,25-34,Male,IN,Meganside,USA,$75k-$100k,Master's,White
+AUD_001121,18-24,Prefer not to say,NY,Albany,USA,$50k-$75k,Bachelor's,Mixed
+AUD_001122,45-54,Non-binary,VA,Lake Jonathan,USA,$25k-$50k,Trade School,Hispanic/Latino
+AUD_001123,25-34,Female,CA,Los Angeles,USA,$150k+,Some College,Mixed
+AUD_001124,25-34,Female,GA,East Michaelport,USA,$25k-$50k,High School,Asian
+AUD_001125,18-24,Prefer not to say,NY,New York City,USA,$75k-$100k,High School,Black/African American
+AUD_001126,65+,Male,NY,New York City,USA,$75k-$100k,High School,Hispanic/Latino
+AUD_001127,35-44,Male,TX,Houston,USA,<$25k,High School,Native American
+AUD_001128,25-34,Non-binary,OH,Port Cynthiashire,USA,<$25k,High School,Black/African American
+AUD_001129,35-44,Female,NC,South Pamelahaven,USA,$100k-$150k,Trade School,Native American
+AUD_001130,18-24,Male,GA,Port Erinhaven,USA,$100k-$150k,Some College,Mixed
+AUD_001131,25-34,Male,OH,Robertberg,USA,$150k+,High School,Black/African American
+AUD_001132,35-44,Female,IN,East Matthew,USA,$75k-$100k,Trade School,White
+AUD_001133,45-54,Prefer not to say,IL,Thomasburgh,USA,$25k-$50k,Doctorate,Black/African American
+AUD_001134,35-44,Male,AZ,South Marvinburgh,USA,$75k-$100k,High School,Native American
+AUD_001135,35-44,Non-binary,PA,Cynthiatown,USA,$100k-$150k,Trade School,White
+AUD_001136,45-54,Male,FL,Tampa,USA,$75k-$100k,Bachelor's,Asian
+AUD_001137,65+,Prefer not to say,WI,South Kristen,USA,$25k-$50k,Doctorate,Asian
+AUD_001138,25-34,Male,MI,East Christinachester,USA,$75k-$100k,Trade School,Hispanic/Latino
+AUD_001139,65+,Prefer not to say,IL,Pattersonfort,USA,$150k+,High School,Asian
+AUD_001140,18-24,Female,MA,Smithside,USA,$75k-$100k,Master's,Mixed
+AUD_001141,65+,Female,MO,Lake Nathan,USA,<$25k,Bachelor's,Black/African American
+AUD_001142,55-64,Prefer not to say,NJ,West Katherinehaven,USA,<$25k,Some College,Other
+AUD_001143,35-44,Non-binary,AZ,North Erica,USA,$150k+,Master's,Hispanic/Latino
+AUD_001144,45-54,Non-binary,TN,East Heather,USA,$25k-$50k,Master's,White
+AUD_001145,45-54,Prefer not to say,NY,Buffalo,USA,$25k-$50k,Trade School,Black/African American
+AUD_001146,65+,Male,CA,Los Angeles,USA,<$25k,Master's,Mixed
+AUD_001147,45-54,Non-binary,CA,San Francisco,USA,$25k-$50k,Bachelor's,Native American
+AUD_001148,18-24,Prefer not to say,WI,Stacymouth,USA,$75k-$100k,Some College,Hispanic/Latino
+AUD_001149,55-64,Non-binary,TN,Ryanberg,USA,$100k-$150k,Bachelor's,Other
+AUD_001150,18-24,Prefer not to say,MD,Wendyfort,USA,<$25k,Master's,Asian
+AUD_001151,45-54,Prefer not to say,NJ,Karenburgh,USA,<$25k,High School,Black/African American
+AUD_001152,65+,Female,MD,Smithbury,USA,$75k-$100k,Master's,Black/African American
+AUD_001153,45-54,Male,MI,East Jessica,USA,$100k-$150k,Trade School,Asian
+AUD_001154,45-54,Female,MD,North Michael,USA,$100k-$150k,High School,Asian
+AUD_001155,55-64,Prefer not to say,NC,South Nancyview,USA,$100k-$150k,Trade School,Hispanic/Latino
+AUD_001156,18-24,Male,MI,New Virginiaville,USA,$100k-$150k,High School,Black/African American
+AUD_001157,65+,Male,VA,North Hannahchester,USA,$150k+,Bachelor's,Asian
+AUD_001158,35-44,Non-binary,NY,Rochester,USA,$75k-$100k,Bachelor's,White
+AUD_001159,25-34,Non-binary,GA,Thomasberg,USA,$100k-$150k,High School,Mixed
+AUD_001160,18-24,Non-binary,FL,Tampa,USA,$25k-$50k,High School,Native American
+AUD_001161,45-54,Prefer not to say,NJ,West Robertville,USA,$100k-$150k,Doctorate,Asian
+AUD_001162,65+,Prefer not to say,NC,Cindyberg,USA,$100k-$150k,High School,Hispanic/Latino
+AUD_001163,35-44,Male,WA,Rivasville,USA,$75k-$100k,High School,Mixed
+AUD_001164,45-54,Non-binary,OH,West Danielville,USA,$25k-$50k,Doctorate,Hispanic/Latino
+AUD_001165,25-34,Prefer not to say,VA,Gonzalezborough,USA,$150k+,High School,Other
+AUD_001166,35-44,Non-binary,MD,Marieborough,USA,<$25k,Bachelor's,Native American
+AUD_001167,55-64,Male,WA,Jadeport,USA,$150k+,Doctorate,White
+AUD_001168,35-44,Male,MO,North Amy,USA,$100k-$150k,Doctorate,Asian
+AUD_001169,35-44,Male,AZ,Lake Sarah,USA,$150k+,Bachelor's,Native American
+AUD_001170,65+,Non-binary,MI,Jimmytown,USA,$25k-$50k,Master's,Asian
+AUD_001171,65+,Female,NC,North Maryfort,USA,<$25k,Trade School,Mixed
+AUD_001172,55-64,Prefer not to say,IN,North Kimberly,USA,$25k-$50k,Trade School,Other
+AUD_001173,65+,Prefer not to say,MA,Lake Jenniferview,USA,$100k-$150k,Trade School,Mixed
+AUD_001174,35-44,Prefer not to say,TX,Dallas,USA,$25k-$50k,Some College,Black/African American
+AUD_001175,45-54,Non-binary,MI,Josephton,USA,<$25k,Trade School,Black/African American
+AUD_001176,35-44,Female,AZ,Port Greggton,USA,$50k-$75k,Trade School,Native American
+AUD_001177,25-34,Male,GA,Michaelmouth,USA,$25k-$50k,Some College,White
+AUD_001178,45-54,Prefer not to say,GA,Rodgersville,USA,$100k-$150k,Master's,Asian
+AUD_001179,25-34,Non-binary,TX,Dallas,USA,$25k-$50k,High School,Hispanic/Latino
+AUD_001180,65+,Male,NC,Michaelmouth,USA,$150k+,Master's,Other
+AUD_001181,18-24,Non-binary,CA,Los Angeles,USA,$100k-$150k,Bachelor's,Other
+AUD_001182,35-44,Male,FL,Jacksonville,USA,$75k-$100k,Trade School,Other
+AUD_001183,18-24,Male,PA,South Ricardomouth,USA,$100k-$150k,Trade School,Other
+AUD_001184,45-54,Male,MO,Maryfort,USA,$25k-$50k,Doctorate,White
+AUD_001185,55-64,Prefer not to say,NJ,Banksburgh,USA,$150k+,Trade School,Black/African American
+AUD_001186,25-34,Male,AZ,East Heatherton,USA,$25k-$50k,Some College,Hispanic/Latino
+AUD_001187,35-44,Male,MA,North Robert,USA,$75k-$100k,Doctorate,Hispanic/Latino
+AUD_001188,55-64,Prefer not to say,NY,Buffalo,USA,$75k-$100k,Trade School,Black/African American
+AUD_001189,35-44,Prefer not to say,NC,New Noah,USA,$150k+,Bachelor's,Other
+AUD_001190,65+,Male,MI,Cherylberg,USA,$150k+,Trade School,Other
+AUD_001191,35-44,Prefer not to say,TX,Dallas,USA,$50k-$75k,Trade School,Mixed
+AUD_001192,55-64,Female,VA,Alexanderland,USA,$75k-$100k,Master's,White
+AUD_001193,35-44,Male,WA,Dianatown,USA,$25k-$50k,Bachelor's,Black/African American
+AUD_001194,65+,Non-binary,IL,Lake Morgan,USA,$150k+,Master's,Other
+AUD_001195,18-24,Prefer not to say,TX,Austin,USA,$75k-$100k,Trade School,Asian
+AUD_001196,18-24,Female,NJ,Reedfurt,USA,$150k+,Bachelor's,Native American
+AUD_001197,45-54,Non-binary,FL,Tampa,USA,$75k-$100k,Trade School,White
+AUD_001198,65+,Prefer not to say,TX,Dallas,USA,$150k+,Some College,White
+AUD_001199,65+,Non-binary,WA,Christianburgh,USA,$50k-$75k,Doctorate,White
+AUD_001200,25-34,Female,NY,Albany,USA,$100k-$150k,Trade School,Asian
