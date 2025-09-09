@@ -222,19 +222,30 @@ ON_ERROR = 'CONTINUE';
 
 -- Load Campaign Performance
 COPY INTO campaign_performance (performance_id, campaign_id, segment_id, creative_id, media_channel, impressions, clicks, conversions, cost, ROI, CTR)
-FROM @INTERNAL_DATA_STAGE/data/campaign_performance.csv
+FROM (
+    SELECT $1, $2, $3, $4, $5, $6::INT, $7::INT, $8::INT, $9::DECIMAL(10,2), $10::DECIMAL(8,2), $11::DECIMAL(6,4)
+    FROM @INTERNAL_DATA_STAGE/data/campaign_performance.csv
+)
 FILE_FORMAT = CSV_FORMAT
 ON_ERROR = 'CONTINUE';
 
--- Load Attribution Events
-COPY INTO attribution_events
-FROM @INTERNAL_DATA_STAGE/data/attribution_events.csv
+-- Load Attribution Events  
+COPY INTO attribution_events (attribution_id, campaign_id, audience_id, media_channel, timestamp, touchpoint_type, attribution_percent, benchmark)
+FROM (
+    SELECT $1, $2, $3, $4, $5::DATETIME, $6, $7::DECIMAL(3,2), $8::DECIMAL(3,2)
+    FROM @INTERNAL_DATA_STAGE/data/attribution_events.csv
+)
 FILE_FORMAT = CSV_FORMAT
 ON_ERROR = 'CONTINUE';
 
 -- Load Consent Privacy
-COPY INTO consent_privacy
-FROM @INTERNAL_DATA_STAGE/data/consent_privacy.csv
+COPY INTO consent_privacy (consent_id, audience_id, consent_status, PII_flag, privacy_signal_timestamp, last_updated)
+FROM (
+    SELECT $1, $2, $3, 
+           CASE WHEN $4 = 'True' THEN TRUE WHEN $4 = 'False' THEN FALSE ELSE NULL END,
+           $5::DATETIME, $6::DATETIME
+    FROM @INTERNAL_DATA_STAGE/data/consent_privacy.csv
+)
 FILE_FORMAT = CSV_FORMAT
 ON_ERROR = 'CONTINUE';
 
