@@ -339,7 +339,11 @@ def generate_consent_privacy(audiences):
 
 def write_to_csv(data, filename, fieldnames):
     """Write data to CSV file"""
-    filepath = f'/Users/bciranni/audience-analytics-demo/{filename}'
+    # Get the parent directory (project root) and ensure data directory exists
+    project_root = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
+    data_dir = os.path.join(project_root, 'data')
+    os.makedirs(data_dir, exist_ok=True)
+    filepath = os.path.join(data_dir, filename)
     with open(filepath, 'w', newline='', encoding='utf-8') as csvfile:
         writer = csv.DictWriter(csvfile, fieldnames=fieldnames)
         writer.writeheader()
@@ -395,7 +399,10 @@ def main():
     print(f"✓ {len(performances)} campaign performance records")
     print(f"✓ {len(attribution_events)} attribution events")
     print(f"✓ {len(consents)} consent/privacy records")
-    print("\nFiles generated in /Users/bciranni/audience-analytics-demo/")
+    # Get the project root and data directory for display
+    project_root = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
+    data_dir = os.path.join(project_root, 'data')
+    print(f"\nFiles generated in {data_dir}/")
 
 if __name__ == "__main__":
     main()

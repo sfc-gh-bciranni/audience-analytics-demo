@@ -54,13 +54,14 @@ audience_demographics (1) ←→ (N) attribution_events
 
 1. **GitHub Repository**
    - Repository: `https://github.com/sfc-gh-bciranni/audience-analytics-demo`
-   - All files automatically uploaded via git integration
+   - Data files organized in `/data` folder for clean structure
+   - All files automatically loaded via git integration
 
 2. **Run Snowflake Setup**
    ```sql
    -- Execute the complete setup script in Snowflake
    -- This creates database, loads data, and sets up AI agent
-   SOURCE snowflake_setup.sql;
+   SOURCE scripts/snowflake_setup.sql;
    ```
 
 3. **Access Your AI Agent**
@@ -73,7 +74,7 @@ audience_demographics (1) ←→ (N) attribution_events
 1. **Set Up Database**
 ```sql
 -- Create schema and tables
-SOURCE create_database_schema.sql;
+SOURCE scripts/create_database_schema.sql;
 
 -- Import CSV data (example for MySQL)
 LOAD DATA INFILE 'audience_demographics.csv' 
@@ -100,7 +101,7 @@ SELECT 'creative_metadata', COUNT(*) FROM creative_metadata
 3. **Run Sample Analytics**
 ```sql
 -- Load and execute demonstration queries
-SOURCE sample_analytics_queries.sql;
+SOURCE scripts/sample_analytics_queries.sql;
 ```
 
 ## 🎨 Creative Integration Capabilities
@@ -222,24 +223,40 @@ GROUP BY cp.consent_status;
 
 ## 🛠️ Files Included
 
+### Project Structure
+```
+audience-analytics-demo/
+├── data/                           # CSV data files (24,106 records)
+├── scripts/                        # SQL scripts and Python utilities  
+├── docs/                          # Documentation and setup guides
+├── README.md                      # This file
+└── LICENSE                        # Apache 2.0 license
+```
+
+### Data Files (`/data` folder)
 | File | Purpose | Records |
 |------|---------|---------|
-| `audience_demographics.csv` | Core demographic data | 1,200 |
-| `audience_segments.csv` | Interest-based segments | 3,020 |
-| `creative_metadata.csv` | Visual asset metadata | 1,500 |
-| `media_channel_engagement.csv` | Channel engagement metrics | 4,186 |
-| `campaign_performance.csv` | Core performance data | 5,000 |
-| `attribution_events.csv` | Touchpoint tracking | 8,000 |
-| `consent_privacy.csv` | Privacy compliance | 1,200 |
-| **Snowflake Setup** | | |
-| `snowflake_setup.sql` | Complete Snowflake + AI setup | - |
-| `github_setup_instructions.md` | GitHub repository setup guide | - |
-| **Manual Setup** | | |
-| `create_database_schema.sql` | Manual database setup | - |
-| `sample_analytics_queries.sql` | 15 demonstration queries | - |
-| **Data Generation** | | |
-| `generate_audience_data.py` | Data generation script | - |
-| `data_summary_report.py` | Validation and analysis | - |
+| `data/audience_demographics.csv` | Core demographic data | 1,200 |
+| `data/audience_segments.csv` | Interest-based segments | 3,020 |
+| `data/creative_metadata.csv` | Visual asset metadata | 1,500 |
+| `data/media_channel_engagement.csv` | Channel engagement metrics | 4,186 |
+| `data/campaign_performance.csv` | Core performance data | 5,000 |
+| `data/attribution_events.csv` | Touchpoint tracking | 8,000 |
+| `data/consent_privacy.csv` | Privacy compliance | 1,200 |
+
+### Scripts (`/scripts` folder)
+| File | Purpose | Type |
+|------|---------|------|
+| `scripts/snowflake_setup.sql` | Complete Snowflake + AI setup | SQL |
+| `scripts/create_database_schema.sql` | Manual database setup | SQL |
+| `scripts/sample_analytics_queries.sql` | 15 demonstration queries | SQL |
+| `scripts/generate_audience_data.py` | Data generation script | Python |
+| `scripts/data_summary_report.py` | Validation and analysis | Python |
+
+### Documentation (`/docs` folder)
+| File | Purpose |
+|------|---------|
+| `docs/github_setup_instructions.md` | GitHub repository setup guide |
 
 ## 🤖 Snowflake Intelligence Agent Capabilities
 
@@ -296,16 +313,16 @@ CREATE INDEX idx_attribution_campaign_audience ON attribution_events(campaign_id
 ## 🚀 Next Steps
 
 ### Recommended: Snowflake Intelligence Setup
-1. **Execute Setup Script:** Run `snowflake_setup.sql` in Snowflake for complete AI-powered analytics
+1. **Execute Setup Script:** Run `scripts/snowflake_setup.sql` in Snowflake for complete AI-powered analytics
 2. **Access AI Agent:** Use Snowflake Intelligence for natural language queries
 3. **Demo & Explore:** Leverage the AI agent for audience insights and creative optimization
 
 ### Alternative: Manual Setup
-1. **Import Data:** Use provided SQL scripts to set up your database
-2. **Explore Queries:** Run sample analytics to understand the data structure
+1. **Import Data:** Use provided SQL scripts in `/scripts` folder to set up your database
+2. **Explore Queries:** Run `scripts/sample_analytics_queries.sql` to understand the data structure
 3. **Build Dashboards:** Connect your BI tools for visualization  
 4. **Customize Analysis:** Modify queries for your specific use cases
-5. **Extend Dataset:** Use the Python generator to create additional data
+5. **Extend Dataset:** Use `scripts/generate_audience_data.py` to create additional data
 
 ## 📞 Support
 
@@ -313,7 +330,7 @@ This dataset was created for demonstration purposes and includes realistic but s
 
 ### 🛠️ **Customization**
 
-The included Python scripts can be modified to generate additional data with different parameters:
+The included Python scripts in `/scripts` folder can be modified to generate additional data with different parameters:
 - Adjust audience counts, segment distributions, or geographic targeting
 - Modify creative formats, content types, or sentiment distributions  
 - Change campaign performance ranges, channel mix, or attribution models
@@ -322,8 +339,9 @@ The included Python scripts can be modified to generate additional data with dif
 ### 📞 **Repository & Support**
 
 - **GitHub Repository**: [https://github.com/sfc-gh-bciranni/audience-analytics-demo](https://github.com/sfc-gh-bciranni/audience-analytics-demo)
-- **Setup Instructions**: See `github_setup_instructions.md` for detailed deployment steps
-- **Data Generation**: Run `generate_audience_data.py` to create fresh datasets
+- **Setup Instructions**: See `docs/github_setup_instructions.md` for detailed deployment steps
+- **Data Generation**: Run `scripts/generate_audience_data.py` to create fresh datasets
+- **Data Validation**: Run `scripts/data_summary_report.py` to analyze existing data
 
 ---
 

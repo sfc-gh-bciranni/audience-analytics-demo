@@ -12,39 +12,48 @@ To set up the GitHub repository for Snowflake Git integration, follow these step
 
 ### 2. Upload Data Files
 
-Upload all the CSV files to the **root directory** of your repository (not in a subfolder):
+The repository structure should be organized with data files in a `/data` folder:
 
 ```
 audience-analytics-demo/
-├── audience_demographics.csv
-├── audience_segments.csv  
-├── creative_metadata.csv
-├── media_channel_engagement.csv
-├── campaign_performance.csv
-├── attribution_events.csv
-├── consent_privacy.csv
+├── data/                          # CSV data files (24,106 records)
+│   ├── audience_demographics.csv
+│   ├── audience_segments.csv  
+│   ├── creative_metadata.csv
+│   ├── media_channel_engagement.csv
+│   ├── campaign_performance.csv
+│   ├── attribution_events.csv
+│   └── consent_privacy.csv
+├── scripts/                       # SQL scripts and Python utilities
+│   ├── snowflake_setup.sql
+│   ├── create_database_schema.sql
+│   ├── sample_analytics_queries.sql
+│   ├── generate_audience_data.py
+│   └── data_summary_report.py
+├── docs/                         # Documentation
+│   └── github_setup_instructions.md
 ├── README.md
-├── create_database_schema.sql
-├── sample_analytics_queries.sql
-└── snowflake_setup.sql
+└── LICENSE
 ```
 
 ### 3. Repository Structure Required
 
-The Snowflake setup script expects files in the main branch root directory. **Do not create a demo_data subdirectory** - place CSV files directly in the repository root.
+The Snowflake setup script expects files in the `/data` directory. This provides clean organization separating data files from documentation and scripts.
 
 ### 4. Verification
 
 After uploading, verify your repository structure matches:
-- All 7 CSV files are in the root directory
+- All 7 CSV files are in the `/data` directory
+- All SQL and Python scripts are in the `/scripts` directory
+- Documentation files are in the `/docs` directory
 - Repository is public and accessible
-- Main branch contains all files
+- Main branch contains all files with proper organization
 
 ### 5. Snowflake Setup
 
 Once the repository is ready:
 
-1. Copy the contents of `snowflake_setup.sql`
+1. Copy the contents of `scripts/snowflake_setup.sql`
 2. Execute the script in a Snowflake worksheet
 3. The script will:
    - Create the necessary roles and permissions
@@ -76,9 +85,10 @@ After setup completes:
 
 If the Git integration fails:
 - Ensure repository is public
-- Verify all CSV files are in the root directory (not subfolders)
+- Verify all CSV files are in the `/data` directory
 - Check that file names match exactly what the script expects
 - Make sure you have the correct repository URL format
+- Confirm the `/data` folder structure is maintained
 
 ### Repository Contents
 

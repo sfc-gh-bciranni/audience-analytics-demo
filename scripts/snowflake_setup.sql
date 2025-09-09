@@ -89,10 +89,10 @@ ALTER GIT REPOSITORY AUDIENCE_ANALYTICS_REPO FETCH;
 -- COPY DATA FROM GIT TO INTERNAL STAGE
 -- ========================================================================
 
--- Copy all CSV files from Git repository to internal stage
+-- Copy all CSV files from Git repository data folder to internal stage
 COPY FILES
-INTO @INTERNAL_DATA_STAGE/demo_data/
-FROM @AUDIENCE_ANALYTICS_REPO/branches/main/;
+INTO @INTERNAL_DATA_STAGE/data/
+FROM @AUDIENCE_ANALYTICS_REPO/branches/main/data/;
 
 -- Verify files were copied
 LS @INTERNAL_DATA_STAGE;
@@ -204,43 +204,43 @@ CREATE OR REPLACE TABLE consent_privacy (
 
 -- Load Audience Demographics
 COPY INTO audience_demographics
-FROM @INTERNAL_DATA_STAGE/demo_data/audience_demographics.csv
+FROM @INTERNAL_DATA_STAGE/data/audience_demographics.csv
 FILE_FORMAT = CSV_FORMAT
 ON_ERROR = 'CONTINUE';
 
 -- Load Audience Segments
 COPY INTO audience_segments
-FROM @INTERNAL_DATA_STAGE/demo_data/audience_segments.csv
+FROM @INTERNAL_DATA_STAGE/data/audience_segments.csv
 FILE_FORMAT = CSV_FORMAT
 ON_ERROR = 'CONTINUE';
 
 -- Load Creative Metadata
 COPY INTO creative_metadata
-FROM @INTERNAL_DATA_STAGE/demo_data/creative_metadata.csv
+FROM @INTERNAL_DATA_STAGE/data/creative_metadata.csv
 FILE_FORMAT = CSV_FORMAT
 ON_ERROR = 'CONTINUE';
 
 -- Load Media Channel Engagement
 COPY INTO media_channel_engagement
-FROM @INTERNAL_DATA_STAGE/demo_data/media_channel_engagement.csv
+FROM @INTERNAL_DATA_STAGE/data/media_channel_engagement.csv
 FILE_FORMAT = CSV_FORMAT
 ON_ERROR = 'CONTINUE';
 
 -- Load Campaign Performance
 COPY INTO campaign_performance
-FROM @INTERNAL_DATA_STAGE/demo_data/campaign_performance.csv
+FROM @INTERNAL_DATA_STAGE/data/campaign_performance.csv
 FILE_FORMAT = CSV_FORMAT
 ON_ERROR = 'CONTINUE';
 
 -- Load Attribution Events
 COPY INTO attribution_events
-FROM @INTERNAL_DATA_STAGE/demo_data/attribution_events.csv
+FROM @INTERNAL_DATA_STAGE/data/attribution_events.csv
 FILE_FORMAT = CSV_FORMAT
 ON_ERROR = 'CONTINUE';
 
 -- Load Consent Privacy
 COPY INTO consent_privacy
-FROM @INTERNAL_DATA_STAGE/demo_data/consent_privacy.csv
+FROM @INTERNAL_DATA_STAGE/data/consent_privacy.csv
 FILE_FORMAT = CSV_FORMAT
 ON_ERROR = 'CONTINUE';
 

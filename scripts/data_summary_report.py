@@ -9,7 +9,9 @@ import os
 
 def load_data():
     """Load all CSV files into pandas DataFrames"""
-    data_dir = "/Users/bciranni/audience-analytics-demo"
+    # Get the parent directory (project root) and construct path to data directory  
+    project_root = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
+    data_dir = os.path.join(project_root, 'data')
     
     tables = {}
     files = [
